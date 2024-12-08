@@ -19,9 +19,10 @@ crop.env.humidity=Humidity: %s/%s
 crop.env.env=Env. Quality: %s/%s
 crop.env.light=Light Level: %s/%s
 
-message.info.energy=%s/%s EU %s
-message.info.energy.tier=(Tier: %s)
+analyzer.message.info.energy=%s/%s EU %s
+analyzer.message.info.energy.tier=(Tier: %s)
 
-message.info.press=Press %1$s for more info
-message.info.click.block=%1$s and %2$s on Crop to %3$s
-message.info.crop.info=Scan or see Crop Info
+analyzer.message.info.press=Press %1$s for more info
+analyzer.message.info.click.block=%1$s and %2$s on Crop to %3$s
+analyzer.message.info.crop.info=Scan or see Crop Info
+analyzer.tooltip.desc=Can scan Crop InWorld. Uses 500EU per scan

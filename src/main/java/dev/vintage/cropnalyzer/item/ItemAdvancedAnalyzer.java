@@ -62,11 +62,12 @@ public class ItemAdvancedAnalyzer extends ItemTool implements IHandHeldInventory
     @Override
     @SideOnly(Side.CLIENT)
     public void addInformation(ItemStack stack, EntityPlayer player, List tooltip, boolean isDebugMode) {
-        tooltip.add(FormattedTranslator.AQUA.format("message.info.energy", AdvancedCropnalyzer.getCharge(stack), this.getMaxCharge(stack), FormattedTranslator.WHITE.format("message.info.energy.tier", FormattedTranslator.YELLOW.literal(this.getTier(stack) + ""))));
+        tooltip.add(FormattedTranslator.AQUA.format("analyzer.message.info.energy", AdvancedCropnalyzer.getCharge(stack), this.getMaxCharge(stack), FormattedTranslator.WHITE.format("analyzer.message.info.energy.tier", FormattedTranslator.YELLOW.literal(this.getTier(stack) + ""))));
+        tooltip.add(FormattedTranslator.YELLOW.format("analyzer.tooltip.desc"));
         if (AdvancedCropnalyzer.isShiftKeyDown()) {
-            tooltip.add(FormattedTranslator.GRAY.format("message.info.click.block", FormattedTranslator.GOLD.literal(AdvancedCropnalyzer.SNEAK_KEY), FormattedTranslator.GOLD.literal("Right Click"), FormattedTranslator.GREEN.format("message.info.crop.info")));
+            tooltip.add(FormattedTranslator.GRAY.format("analyzer.message.info.click.block", FormattedTranslator.GOLD.literal(AdvancedCropnalyzer.SNEAK_KEY), FormattedTranslator.GOLD.literal("Right Click"), FormattedTranslator.GREEN.format("analyzer.message.info.crop.info")));
         } else {
-            tooltip.add(FormattedTranslator.GRAY.format("message.info.press", FormattedTranslator.GREEN.format(AdvancedCropnalyzer.SNEAK_KEY)));
+            tooltip.add(FormattedTranslator.GRAY.format("analyzer.message.info.press", FormattedTranslator.GREEN.format(AdvancedCropnalyzer.SNEAK_KEY)));
         }
     }
 
