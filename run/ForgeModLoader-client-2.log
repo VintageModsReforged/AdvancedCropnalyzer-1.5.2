@@ -1,0 +1,854 @@
+2024-12-08 10:52:49 [INFO] [ForgeModLoader] Forge Mod Loader version 5.2.23.738 for Minecraft 1.5.2 loading
+2024-12-08 10:52:49 [INFO] [ForgeModLoader] Java is OpenJDK 64-Bit Server VM, version 1.8.0_432, running on Windows 11:amd64:10.0, installed at C:\Users\cross\.jdks\temurin-1.8.0_432\jre
+2024-12-08 10:52:49 [FINE] [ForgeModLoader] Java classpath at launch is C:\Users\cross\.gradle\caches\voldeloom\forgeLibs\net.minecraftforge_forge_1.5.2-7.8.1.738\argo-small-3.2.jar;C:\Users\cross\.gradle\caches\voldeloom\forgeLibs\net.minecraftforge_forge_1.5.2-7.8.1.738\guava-14.0-rc3.jar;C:\Users\cross\.gradle\caches\voldeloom\forgeLibs\net.minecraftforge_forge_1.5.2-7.8.1.738\asm-all-4.1.jar;C:\Users\cross\.gradle\caches\voldeloom\forgeLibs\net.minecraftforge_forge_1.5.2-7.8.1.738\bcprov-jdk15on-148.jar;C:\Users\cross\.gradle\caches\voldeloom\forgeLibs\net.minecraftforge_forge_1.5.2-7.8.1.738\scala-library.jar;C:\Users\cross\.gradle\caches\voldeloom\mapped\net.minecraftforge_forge_1.5.2-7.8.1.738\minecraft-1.5.2-forge-1.5.2-7.8.1.738-named-19203e63.jar;D:\Games\Minecraft\Workspace\VintageModsReforged\AdvancedCropnalyzer - 1.5.2\.gradle\voldeloom-cache\remapped-mods\VintageCore-1.5.2-1.0.3.1-dev.jar-mapped-net.minecraftforge_forge_1.5.2-7.8.1.738.jar;D:\Games\Minecraft\Workspace\VintageModsReforged\AdvancedCropnalyzer - 1.5.2\.gradle\voldeloom-cache\remapped-mods\industrialcraft-2_1.117.385-lf.jar-mapped-net.minecraftforge_forge_1.5.2-7.8.1.738.jar;C:\Users\cross\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.5\5150b9c2951f0fde987ce9c33496e26add1de224\launchwrapper-1.5.jar;C:\Users\cross\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\4.5\6065cc95c661255349c1d0756657be17c29a4fd3\jopt-simple-4.5.jar;C:\Users\cross\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-all\4.1\54986e962b88d8660ae4566475658469595ef58\asm-all-4.1.jar;C:\Users\cross\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.0\a778846b64008fc7f48ead2377f034e547991699\lwjgl_util-2.9.0.jar;C:\Users\cross\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.0\5654d06e61a1bba7ae1e7f5233e1106be64c91cd\lwjgl-2.9.0.jar;C:\Users\cross\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar;C:\Users\cross\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar;C:\Users\cross\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\4.1\dd6ba5c392d4102458494e29f54f70ac534ec2a2\asm-debug-all-4.1.jar;C:\Users\cross\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar;C:\Users\cross\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar;C:\Users\cross\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar;C:\Users\cross\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.0\3f11873dc8e84c854ec7c5a8fd2e869f8aaef764\lwjgl-platform-2.9.0-natives-windows.jar;C:\Users\cross\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.0\2ba5dcb11048147f1a74eff2deb192c001321f77\lwjgl-platform-2.9.0-natives-linux.jar;C:\Users\cross\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.0\6621b382cb14cc409b041d8d72829156a87c31aa\lwjgl-platform-2.9.0-natives-osx.jar;D:\Games\Minecraft\Workspace\VintageModsReforged\AdvancedCropnalyzer - 1.5.2\build\libs\advancedcropnalyzer-1.5.2-1.0.0-dev.jar;C:\Users\cross\AppData\Local\JetBrains\IdeaIC2024.3\captureAgent\debugger-agent.jar
+2024-12-08 10:52:49 [FINE] [ForgeModLoader] Java library path at launch is C:\Users\cross\.gradle\caches\voldeloom\natives\1.5.2-d1a87b84
+2024-12-08 10:52:49 [INFO] [ForgeModLoader] Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+2024-12-08 10:52:49 [FINEST] [ForgeModLoader] All core mods are successfully located
+2024-12-08 10:52:49 [FINEST] [ForgeModLoader] Discovering coremods
+2024-12-08 10:52:49 [FINEST] [ForgeModLoader] Found library file argo-small-3.2.jar present and correct in lib dir
+2024-12-08 10:52:49 [FINEST] [ForgeModLoader] Found library file guava-14.0-rc3.jar present and correct in lib dir
+2024-12-08 10:52:49 [FINEST] [ForgeModLoader] Found library file asm-all-4.1.jar present and correct in lib dir
+2024-12-08 10:52:49 [FINEST] [ForgeModLoader] Found library file bcprov-jdk15on-148.jar present and correct in lib dir
+2024-12-08 10:52:49 [FINEST] [ForgeModLoader] Found library file deobfuscation_data_1.5.2.zip present and correct in lib dir
+2024-12-08 10:52:49 [FINEST] [ForgeModLoader] Found library file scala-library.jar present and correct in lib dir
+2024-12-08 10:52:49 [FINEST] [ForgeModLoader] Running coremod plugins
+2024-12-08 10:52:49 [FINEST] [ForgeModLoader] Running coremod plugin FMLCorePlugin
+2024-12-08 10:52:49 [SEVERE] [ForgeModLoader] FML appears to be missing any signature data. This is not a good thing
+2024-12-08 10:52:49 [FINEST] [ForgeModLoader] Coremod plugin FMLCorePlugin run successfully
+2024-12-08 10:52:49 [FINEST] [ForgeModLoader] Running coremod plugin FMLForgePlugin
+2024-12-08 10:52:49 [FINEST] [ForgeModLoader] Coremod plugin FMLForgePlugin run successfully
+2024-12-08 10:52:49 [FINEST] [ForgeModLoader] Validating minecraft
+2024-12-08 10:52:49 [FINEST] [ForgeModLoader] Minecraft validated, launching...
+2024-12-08 10:52:50 [INFO] [STDOUT] 229 recipes
+2024-12-08 10:52:50 [INFO] [STDOUT] 27 achievements
+2024-12-08 10:52:50 [INFO] [Minecraft-Client] Setting user: quaternary
+2024-12-08 10:52:50 [INFO] [STDOUT] (Session ID is -)
+2024-12-08 10:52:50 [INFO] [STDERR] Client asked for parameter: server
+2024-12-08 10:52:50 [INFO] [Minecraft-Client] LWJGL Version: 2.9.0
+2024-12-08 10:52:50 [INFO] [MinecraftForge] Attempting early MinecraftForge initialization
+2024-12-08 10:52:50 [INFO] [STDOUT] MinecraftForge v7.8.1.738 Initialized
+2024-12-08 10:52:50 [INFO] [ForgeModLoader] MinecraftForge v7.8.1.738 Initialized
+2024-12-08 10:52:50 [INFO] [STDOUT] Replaced 85 ore recipies
+2024-12-08 10:52:50 [INFO] [MinecraftForge] Completed early MinecraftForge initialization
+2024-12-08 10:52:50 [INFO] [ForgeModLoader] Reading custom logging properties from D:\Games\Minecraft\Workspace\VintageModsReforged\AdvancedCropnalyzer - 1.5.2\run\config\logging.properties
+2024-12-08 10:52:50 [OFF] [ForgeModLoader] Logging level for ForgeModLoader logging is set to ALL
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Building injected Mod Containers [cpw.mods.fml.common.FMLDummyContainer, net.minecraftforge.common.ForgeDummyContainer]
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Attempting to load mods contained in the minecraft jar file and associated classes
+2024-12-08 10:52:50 [FINER] [ForgeModLoader] Skipping known library file C:\Users\cross\.gradle\caches\voldeloom\forgeLibs\net.minecraftforge_forge_1.5.2-7.8.1.738\argo-small-3.2.jar
+2024-12-08 10:52:50 [FINER] [ForgeModLoader] Skipping known library file C:\Users\cross\.gradle\caches\voldeloom\forgeLibs\net.minecraftforge_forge_1.5.2-7.8.1.738\guava-14.0-rc3.jar
+2024-12-08 10:52:50 [FINER] [ForgeModLoader] Skipping known library file C:\Users\cross\.gradle\caches\voldeloom\forgeLibs\net.minecraftforge_forge_1.5.2-7.8.1.738\asm-all-4.1.jar
+2024-12-08 10:52:50 [FINER] [ForgeModLoader] Skipping known library file C:\Users\cross\.gradle\caches\voldeloom\forgeLibs\net.minecraftforge_forge_1.5.2-7.8.1.738\bcprov-jdk15on-148.jar
+2024-12-08 10:52:50 [FINER] [ForgeModLoader] Skipping known library file C:\Users\cross\.gradle\caches\voldeloom\forgeLibs\net.minecraftforge_forge_1.5.2-7.8.1.738\scala-library.jar
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\cross\.gradle\caches\voldeloom\mapped\net.minecraftforge_forge_1.5.2-7.8.1.738\minecraft-1.5.2-forge-1.5.2-7.8.1.738-named-19203e63.jar, examining for mod candidates
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Found a minecraft related file at D:\Games\Minecraft\Workspace\VintageModsReforged\AdvancedCropnalyzer - 1.5.2\.gradle\voldeloom-cache\remapped-mods\VintageCore-1.5.2-1.0.3.1-dev.jar-mapped-net.minecraftforge_forge_1.5.2-7.8.1.738.jar, examining for mod candidates
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Found a minecraft related file at D:\Games\Minecraft\Workspace\VintageModsReforged\AdvancedCropnalyzer - 1.5.2\.gradle\voldeloom-cache\remapped-mods\industrialcraft-2_1.117.385-lf.jar-mapped-net.minecraftforge_forge_1.5.2-7.8.1.738.jar, examining for mod candidates
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\cross\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.5\5150b9c2951f0fde987ce9c33496e26add1de224\launchwrapper-1.5.jar, examining for mod candidates
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\cross\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\4.5\6065cc95c661255349c1d0756657be17c29a4fd3\jopt-simple-4.5.jar, examining for mod candidates
+2024-12-08 10:52:50 [FINER] [ForgeModLoader] Skipping known library file C:\Users\cross\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-all\4.1\54986e962b88d8660ae4566475658469595ef58\asm-all-4.1.jar
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\cross\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.0\a778846b64008fc7f48ead2377f034e547991699\lwjgl_util-2.9.0.jar, examining for mod candidates
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\cross\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.0\5654d06e61a1bba7ae1e7f5233e1106be64c91cd\lwjgl-2.9.0.jar, examining for mod candidates
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\cross\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar, examining for mod candidates
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\cross\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar, examining for mod candidates
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\cross\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\4.1\dd6ba5c392d4102458494e29f54f70ac534ec2a2\asm-debug-all-4.1.jar, examining for mod candidates
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\cross\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar, examining for mod candidates
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\cross\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar, examining for mod candidates
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\cross\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar, examining for mod candidates
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\cross\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.0\3f11873dc8e84c854ec7c5a8fd2e869f8aaef764\lwjgl-platform-2.9.0-natives-windows.jar, examining for mod candidates
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\cross\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.0\2ba5dcb11048147f1a74eff2deb192c001321f77\lwjgl-platform-2.9.0-natives-linux.jar, examining for mod candidates
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\cross\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.0\6621b382cb14cc409b041d8d72829156a87c31aa\lwjgl-platform-2.9.0-natives-osx.jar, examining for mod candidates
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Found a minecraft related file at D:\Games\Minecraft\Workspace\VintageModsReforged\AdvancedCropnalyzer - 1.5.2\build\libs\advancedcropnalyzer-1.5.2-1.0.0-dev.jar, examining for mod candidates
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\cross\AppData\Local\JetBrains\IdeaIC2024.3\captureAgent\debugger-agent.jar, examining for mod candidates
+2024-12-08 10:52:50 [FINER] [ForgeModLoader] Skipping known library file D:\Games\Minecraft\Workspace\VintageModsReforged\AdvancedCropnalyzer - 1.5.2\run\lib\argo-small-3.2.jar
+2024-12-08 10:52:50 [FINER] [ForgeModLoader] Skipping known library file D:\Games\Minecraft\Workspace\VintageModsReforged\AdvancedCropnalyzer - 1.5.2\run\lib\guava-14.0-rc3.jar
+2024-12-08 10:52:50 [FINER] [ForgeModLoader] Skipping known library file D:\Games\Minecraft\Workspace\VintageModsReforged\AdvancedCropnalyzer - 1.5.2\run\lib\asm-all-4.1.jar
+2024-12-08 10:52:50 [FINER] [ForgeModLoader] Skipping known library file D:\Games\Minecraft\Workspace\VintageModsReforged\AdvancedCropnalyzer - 1.5.2\run\lib\bcprov-jdk15on-148.jar
+2024-12-08 10:52:50 [FINER] [ForgeModLoader] Skipping known library file D:\Games\Minecraft\Workspace\VintageModsReforged\AdvancedCropnalyzer - 1.5.2\run\lib\deobfuscation_data_1.5.2.zip
+2024-12-08 10:52:50 [FINER] [ForgeModLoader] Skipping known library file D:\Games\Minecraft\Workspace\VintageModsReforged\AdvancedCropnalyzer - 1.5.2\run\lib\scala-library.jar
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Minecraft jar mods loaded successfully
+2024-12-08 10:52:50 [INFO] [ForgeModLoader] Searching D:\Games\Minecraft\Workspace\VintageModsReforged\AdvancedCropnalyzer - 1.5.2\run\mods for mods
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Examining file minecraft-1.5.2-forge-1.5.2-7.8.1.738-named-19203e63.jar for potential mods
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] The mod container minecraft-1.5.2-forge-1.5.2-7.8.1.738-named-19203e63.jar appears to be missing an mcmod.info file
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Examining file VintageCore-1.5.2-1.0.3.1-dev.jar-mapped-net.minecraftforge_forge_1.5.2-7.8.1.738.jar for potential mods
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] The mod container VintageCore-1.5.2-1.0.3.1-dev.jar-mapped-net.minecraftforge_forge_1.5.2-7.8.1.738.jar appears to be missing an mcmod.info file
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Identified an FMLMod type mod mods.vintage.core.VintageCore
+2024-12-08 10:52:50 [FINEST] [VintageCore] Parsed dependency info : [] [] []
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Examining file industrialcraft-2_1.117.385-lf.jar-mapped-net.minecraftforge_forge_1.5.2-7.8.1.738.jar for potential mods
+2024-12-08 10:52:50 [FINER] [ForgeModLoader] Located mcmod.info file in file industrialcraft-2_1.117.385-lf.jar-mapped-net.minecraftforge_forge_1.5.2-7.8.1.738.jar
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Identified an FMLMod type mod ic2.core.IC2
+2024-12-08 10:52:50 [FINEST] [IC2] Parsed dependency info : [] [] []
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Examining file launchwrapper-1.5.jar for potential mods
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] The mod container launchwrapper-1.5.jar appears to be missing an mcmod.info file
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Examining file jopt-simple-4.5.jar for potential mods
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] The mod container jopt-simple-4.5.jar appears to be missing an mcmod.info file
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Examining file lwjgl_util-2.9.0.jar for potential mods
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] The mod container lwjgl_util-2.9.0.jar appears to be missing an mcmod.info file
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Examining file lwjgl-2.9.0.jar for potential mods
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] The mod container lwjgl-2.9.0.jar appears to be missing an mcmod.info file
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Examining file jinput-2.0.5.jar for potential mods
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] The mod container jinput-2.0.5.jar appears to be missing an mcmod.info file
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Examining file jutils-1.0.0.jar for potential mods
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] The mod container jutils-1.0.0.jar appears to be missing an mcmod.info file
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Examining file asm-debug-all-4.1.jar for potential mods
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] The mod container asm-debug-all-4.1.jar appears to be missing an mcmod.info file
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Examining file jinput-platform-2.0.5-natives-linux.jar for potential mods
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] The mod container jinput-platform-2.0.5-natives-linux.jar appears to be missing an mcmod.info file
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Examining file jinput-platform-2.0.5-natives-windows.jar for potential mods
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] The mod container jinput-platform-2.0.5-natives-windows.jar appears to be missing an mcmod.info file
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Examining file jinput-platform-2.0.5-natives-osx.jar for potential mods
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] The mod container jinput-platform-2.0.5-natives-osx.jar appears to be missing an mcmod.info file
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Examining file lwjgl-platform-2.9.0-natives-windows.jar for potential mods
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] The mod container lwjgl-platform-2.9.0-natives-windows.jar appears to be missing an mcmod.info file
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Examining file lwjgl-platform-2.9.0-natives-linux.jar for potential mods
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] The mod container lwjgl-platform-2.9.0-natives-linux.jar appears to be missing an mcmod.info file
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Examining file lwjgl-platform-2.9.0-natives-osx.jar for potential mods
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] The mod container lwjgl-platform-2.9.0-natives-osx.jar appears to be missing an mcmod.info file
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Examining file advancedcropnalyzer-1.5.2-1.0.0-dev.jar for potential mods
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] The mod container advancedcropnalyzer-1.5.2-1.0.0-dev.jar appears to be missing an mcmod.info file
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Identified an FMLMod type mod dev.vintage.cropnalyzer.AdvancedCropnalyzer
+2024-12-08 10:52:50 [FINEST] [advancedcropnalyzer] Parsed dependency info : [VintageCore, IC2] [VintageCore, IC2] []
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Examining file debugger-agent.jar for potential mods
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] The mod container debugger-agent.jar appears to be missing an mcmod.info file
+2024-12-08 10:52:50 [INFO] [ForgeModLoader] Forge Mod Loader has identified 6 mods to load
+2024-12-08 10:52:50 [FINER] [ForgeModLoader] Received a system property request ''
+2024-12-08 10:52:50 [FINER] [ForgeModLoader] System property request managing the state of 0 mods
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] After merging, found state information for 0 mods
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Reloading logging properties from D:\Games\Minecraft\Workspace\VintageModsReforged\AdvancedCropnalyzer - 1.5.2\run\config\logging.properties
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Reloaded logging properties
+2024-12-08 10:52:50 [FINE] [mcp] Mod Logging channel mcp configured at default level.
+2024-12-08 10:52:50 [INFO] [mcp] Activating mod mcp
+2024-12-08 10:52:50 [FINE] [FML] Mod Logging channel FML configured at default level.
+2024-12-08 10:52:50 [INFO] [FML] Activating mod FML
+2024-12-08 10:52:50 [FINE] [Forge] Mod Logging channel Forge configured at default level.
+2024-12-08 10:52:50 [INFO] [Forge] Activating mod Forge
+2024-12-08 10:52:50 [FINE] [VintageCore] Enabling mod VintageCore
+2024-12-08 10:52:50 [FINE] [VintageCore] Mod Logging channel VintageCore configured at default level.
+2024-12-08 10:52:50 [INFO] [VintageCore] Activating mod VintageCore
+2024-12-08 10:52:50 [FINE] [IC2] Enabling mod IC2
+2024-12-08 10:52:50 [FINE] [IC2] Mod Logging channel IC2 configured at default level.
+2024-12-08 10:52:50 [INFO] [IC2] Activating mod IC2
+2024-12-08 10:52:50 [FINE] [advancedcropnalyzer] Enabling mod advancedcropnalyzer
+2024-12-08 10:52:50 [FINE] [advancedcropnalyzer] Mod Logging channel advancedcropnalyzer configured at default level.
+2024-12-08 10:52:50 [INFO] [advancedcropnalyzer] Activating mod advancedcropnalyzer
+2024-12-08 10:52:50 [FINER] [ForgeModLoader] Verifying mod requirements are satisfied
+2024-12-08 10:52:50 [FINER] [ForgeModLoader] All mod requirements are satisfied
+2024-12-08 10:52:50 [FINER] [ForgeModLoader] Sorting mods into an ordered list
+2024-12-08 10:52:50 [FINER] [ForgeModLoader] Mod sorting completed successfully
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Mod sorting data
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] 	VintageCore(Vintage Core:1.5.2-1.0.3.1): VintageCore-1.5.2-1.0.3.1-dev.jar-mapped-net.minecraftforge_forge_1.5.2-7.8.1.738.jar ()
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] 	IC2(IndustrialCraft 2:1.117.385-lf): industrialcraft-2_1.117.385-lf.jar-mapped-net.minecraftforge_forge_1.5.2-7.8.1.738.jar ()
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] 	advancedcropnalyzer(IC2: Advanced Cropnalyzer:1.5.2-1.0.0): advancedcropnalyzer-1.5.2-1.0.0-dev.jar (required-after:VintageCore;required-after:IC2)
+2024-12-08 10:52:50 [FINEST] [mcp] Sending event FMLConstructionEvent to mod mcp
+2024-12-08 10:52:50 [FINEST] [mcp] Sent event FMLConstructionEvent to mod mcp
+2024-12-08 10:52:50 [FINEST] [FML] Sending event FMLConstructionEvent to mod FML
+2024-12-08 10:52:50 [FINEST] [FML] Sent event FMLConstructionEvent to mod FML
+2024-12-08 10:52:50 [FINEST] [Forge] Sending event FMLConstructionEvent to mod Forge
+2024-12-08 10:52:50 [INFO] [ForgeModLoader] Registering Forge Packet Handler
+2024-12-08 10:52:50 [FINEST] [ForgeModLoader] Testing mod Forge to verify it accepts its own version in a remote connection
+2024-12-08 10:52:50 [FINEST] [ForgeModLoader] The mod Forge accepts its own version (7.8.1.738)
+2024-12-08 10:52:50 [INFO] [ForgeModLoader] Succeeded registering Forge Packet Handler
+2024-12-08 10:52:50 [FINEST] [Forge] Sent event FMLConstructionEvent to mod Forge
+2024-12-08 10:52:50 [FINEST] [VintageCore] Sending event FMLConstructionEvent to mod VintageCore
+2024-12-08 10:52:50 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into VintageCore
+2024-12-08 10:52:50 [FINEST] [VintageCore] Sent event FMLConstructionEvent to mod VintageCore
+2024-12-08 10:52:50 [FINEST] [IC2] Sending event FMLConstructionEvent to mod IC2
+2024-12-08 10:52:51 [SEVERE] [IC2] The mod IC2 is expecting signature de041f9f6187debbc77034a344134053277aa3b0 for source industrialcraft-2_1.117.385-lf.jar-mapped-net.minecraftforge_forge_1.5.2-7.8.1.738.jar, however there is no signature matching that description
+2024-12-08 10:52:51 [FINEST] [ForgeModLoader] Testing mod IC2 to verify it accepts its own version in a remote connection
+2024-12-08 10:52:51 [FINEST] [ForgeModLoader] The mod IC2 accepts its own version (1.117.385-lf)
+2024-12-08 10:52:51 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into IC2
+2024-12-08 10:52:51 [FINEST] [IC2] Sent event FMLConstructionEvent to mod IC2
+2024-12-08 10:52:51 [FINEST] [advancedcropnalyzer] Sending event FMLConstructionEvent to mod advancedcropnalyzer
+2024-12-08 10:52:51 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into advancedcropnalyzer
+2024-12-08 10:52:51 [FINEST] [advancedcropnalyzer] Sent event FMLConstructionEvent to mod advancedcropnalyzer
+2024-12-08 10:52:51 [FINE] [ForgeModLoader] Mod signature data
+2024-12-08 10:52:51 [FINE] [ForgeModLoader] 	mcp(Minecraft Coder Pack:7.51): minecraft.jar (NO VALID CERTIFICATE FOUND)
+2024-12-08 10:52:51 [FINE] [ForgeModLoader] 	FML(Forge Mod Loader:5.2.23.738): coremods (NO VALID CERTIFICATE FOUND)
+2024-12-08 10:52:51 [FINE] [ForgeModLoader] 	Forge(Minecraft Forge:7.8.1.738): coremods (NO VALID CERTIFICATE FOUND)
+2024-12-08 10:52:51 [FINE] [ForgeModLoader] 	VintageCore(Vintage Core:1.5.2-1.0.3.1): VintageCore-1.5.2-1.0.3.1-dev.jar-mapped-net.minecraftforge_forge_1.5.2-7.8.1.738.jar (NO VALID CERTIFICATE FOUND)
+2024-12-08 10:52:51 [FINE] [ForgeModLoader] 	IC2(IndustrialCraft 2:1.117.385-lf): industrialcraft-2_1.117.385-lf.jar-mapped-net.minecraftforge_forge_1.5.2-7.8.1.738.jar (NO VALID CERTIFICATE FOUND)
+2024-12-08 10:52:51 [FINE] [ForgeModLoader] 	advancedcropnalyzer(IC2: Advanced Cropnalyzer:1.5.2-1.0.0): advancedcropnalyzer-1.5.2-1.0.0-dev.jar (NO VALID CERTIFICATE FOUND)
+2024-12-08 10:52:51 [FINEST] [mcp] Sending event FMLPreInitializationEvent to mod mcp
+2024-12-08 10:52:51 [FINEST] [mcp] Sent event FMLPreInitializationEvent to mod mcp
+2024-12-08 10:52:51 [FINEST] [FML] Sending event FMLPreInitializationEvent to mod FML
+2024-12-08 10:52:51 [FINEST] [FML] Sent event FMLPreInitializationEvent to mod FML
+2024-12-08 10:52:51 [FINEST] [Forge] Sending event FMLPreInitializationEvent to mod Forge
+2024-12-08 10:52:51 [INFO] [ForgeModLoader] Configured a dormant chunk cache size of 0
+2024-12-08 10:52:51 [FINEST] [Forge] Sent event FMLPreInitializationEvent to mod Forge
+2024-12-08 10:52:51 [FINEST] [VintageCore] Sending event FMLPreInitializationEvent to mod VintageCore
+2024-12-08 10:52:51 [FINEST] [VintageCore] Sent event FMLPreInitializationEvent to mod VintageCore
+2024-12-08 10:52:51 [FINEST] [IC2] Sending event FMLPreInitializationEvent to mod IC2
+2024-12-08 10:52:51 [INFO] [IC2] Config loaded from D:\Games\Minecraft\Workspace\VintageModsReforged\AdvancedCropnalyzer - 1.5.2\run\config\IC2.cfg
+2024-12-08 10:52:51 [INFO] [IC2] Using 32 audio sources.
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockIC2(249) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockIC2(248) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockIC2(247) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockRare(243) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemRubLeaves(242) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockRare(241) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockIC2(240) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockRare(234) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockRare(232) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockIC2(231) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockIC2(230) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(229) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockRare(222) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockRare(221) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockRare(220) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockRare(216) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockMetal(224) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockRare(228) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemGenerator(246) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockRare(233) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemElectricBlock(227) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemMachine(250) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemMachine2(223) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemLuminator(219) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemLuminator(226) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockRare(245) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockRare(244) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemPersonalBlock(225) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockRare(239) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockRare(237) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockRare(236) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockRare(235) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockRare(218) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBlockRare(217) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemResin(30217) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30216) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30243) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30251) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30133) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30256) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30253) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30254) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30255) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30130) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30250) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30252) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30226) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30249) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30248) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30247) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30246) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30245) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30244) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30191) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30190) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30187) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30152) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30151) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30150) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30188) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30128) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30147) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30084) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemTreetap(30212) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemIC2Pickaxe(30200) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemIC2Axe(30199) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemIC2Sword(30198) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemIC2Spade(30197) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemIC2Hoe(30196) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolWrench(30183) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolCutter(30153) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemSprayer(30131) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemToolbox(30117) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemElectricToolDrill(30235) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemElectricToolDDrill(30234) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemElectricToolChainsaw(30233) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolWrenchElectric(30140) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemTreetapElectric(30124) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolMiningLaser(30208) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolMeter(30182) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemScanner(30220) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemScannerAdv(30219) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemObscurator(30076) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemFrequencyTransmitter(30134) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemNanoSaber(30149) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorHazmat(30082) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorHazmat(30081) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorHazmat(30080) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorHazmat(30211) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorIC2(30195) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorIC2(30194) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorIC2(30193) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorIC2(30192) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorIC2(30179) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorNanoSuit(30178) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorNanoSuit(30177) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorNanoSuit(30176) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorNanoSuit(30175) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorQuantumSuit(30174) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorQuantumSuit(30173) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorQuantumSuit(30172) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorQuantumSuit(30171) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorJetpack(30210) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorJetpackElectric(30209) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorBatpack(30180) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorLappack(30127) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorCFPack(30129) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorSolarHelmet(30116) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorStaticBoots(30115) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.armor.ItemArmorNightvisionGoggles(30078) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemBatteryDischarged(30239) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemBattery(30242) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemBattery(30241) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemBattery(30240) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemBatterySU(30238) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemCable(30184) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemCell(30237) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30236) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30230) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30229) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30228) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30227) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30218) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30181) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemFuelCanEmpty(30231) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemFuelCanFilled(30232) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30222) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemTinCan(30221) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30079) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorUranium(30207) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorUranium(30102) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorUranium(30101) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorHeatStorage(30206) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorHeatStorage(30100) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorHeatStorage(30099) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorPlating(30205) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorPlating(30098) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorPlating(30097) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorHeatSwitch(30204) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorHeatSwitch(30096) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorHeatSwitch(30095) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorHeatSwitch(30094) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorVent(30093) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorVent(30092) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorVent(30091) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorVentSpread(30090) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorVent(30089) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorDepletedUranium(30203) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30202) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30201) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorHeatpack(30088) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorReflector(30087) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorReflector(30086) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorCondensator(30085) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.reactor.ItemReactorCondensator(30083) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30146) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tfbp.ItemTFBPCultivation(30145) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tfbp.ItemTFBPIrrigation(30144) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tfbp.ItemTFBPChilling(30143) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tfbp.ItemTFBPDesertification(30142) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tfbp.ItemTFBPFlatification(30141) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tfbp.ItemTFBPMushroom(30118) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30138) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30137) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30136) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30135) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30189) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemScrapbox(30139) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30225) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30224) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30223) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30170) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolPainter(30169) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolPainter(30168) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolPainter(30167) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolPainter(30166) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolPainter(30165) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolPainter(30164) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolPainter(30163) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolPainter(30162) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolPainter(30161) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolPainter(30160) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolPainter(30159) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolPainter(30158) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolPainter(30157) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolPainter(30156) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolPainter(30155) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemToolPainter(30154) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemDynamite(30215) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemDynamite(30214) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemRemote(30213) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemUpgradeModule(30125) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30186) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemIC2Door(30185) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30132) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30106) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemDebug(30104) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30103) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2Boat(30077) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemCropSeed(30126) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemCropnalyzer(30122) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemFertilizer(30121) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemGradual(30120) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.tool.ItemElectricToolHoe(30119) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemTerraWart(30114) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30105) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemMug(30111) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30113) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30112) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemMugCoffee(30110) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemIC2(30109) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.block.ItemBarrel(30108) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemBooze(30107) owned by IC2
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item ic2.core.item.ItemMigrate(30148) owned by IC2
+2024-12-08 10:52:51 [FINEST] [ForgeModLoader] Automatically registered mod IC2 entity MiningLaser as IC2.MiningLaser
+2024-12-08 10:52:51 [FINEST] [ForgeModLoader] Automatically registered mod IC2 entity Dynamite as IC2.Dynamite
+2024-12-08 10:52:51 [FINEST] [ForgeModLoader] Automatically registered mod IC2 entity StickyDynamite as IC2.StickyDynamite
+2024-12-08 10:52:51 [FINEST] [ForgeModLoader] Automatically registered mod IC2 entity Itnt as IC2.Itnt
+2024-12-08 10:52:51 [FINEST] [ForgeModLoader] Automatically registered mod IC2 entity Nuke as IC2.Nuke
+2024-12-08 10:52:51 [FINEST] [ForgeModLoader] Automatically registered mod IC2 entity BoatCarbon as IC2.BoatCarbon
+2024-12-08 10:52:51 [FINEST] [ForgeModLoader] Automatically registered mod IC2 entity BoatRubber as IC2.BoatRubber
+2024-12-08 10:52:51 [FINEST] [ForgeModLoader] Automatically registered mod IC2 entity BoatElectric as IC2.BoatElectric
+2024-12-08 10:52:51 [FINEST] [IC2] Sent event FMLPreInitializationEvent to mod IC2
+2024-12-08 10:52:51 [FINEST] [advancedcropnalyzer] Sending event FMLPreInitializationEvent to mod advancedcropnalyzer
+2024-12-08 10:52:51 [INFO] [Vintage Suite] Trying to load en_US.lang file from /mods/advancedcropnalyzer/lang folder...
+2024-12-08 10:52:51 [INFO] [Vintage Suite] Loaded lang file for en_US!
+2024-12-08 10:52:51 [INFO] [Vintage Suite] Trying to load ru_RU.lang file from /mods/advancedcropnalyzer/lang folder...
+2024-12-08 10:52:51 [INFO] [Vintage Suite] Couldn't load ru_RU.lang file from mods/advancedcropnalyzer/lang folder for advancedcropnalyzer... Did you put it in config/advancedcropnalyzer/lang folder? Let me check...
+2024-12-08 10:52:51 [INFO] [Vintage Suite] Trying to load ru_RU.lang file from /config/advancedcropnalyzer/lang folder...
+2024-12-08 10:52:51 [INFO] [Vintage Suite] Couldn't load ru_RU.lang file for advancedcropnalyzer. Skipping...
+2024-12-08 10:52:51 [INFO] [STDOUT] CONFLICT @ 2001 item slot already occupied by net.minecraft.item.ItemRecord@6897f7b while adding dev.vintage.cropnalyzer.item.ItemAdvancedAnalyzer@55b5d4a8
+2024-12-08 10:52:51 [INFO] [fml.ItemTracker] The mod advancedcropnalyzer is overwriting existing item at 2257 (net.minecraft.item.ItemRecord from Minecraft) with dev.vintage.cropnalyzer.item.ItemAdvancedAnalyzer
+2024-12-08 10:52:51 [FINE] [fml.ItemTracker] Adding item dev.vintage.cropnalyzer.item.ItemAdvancedAnalyzer(2257) owned by advancedcropnalyzer
+2024-12-08 10:52:51 [FINEST] [advancedcropnalyzer] Sent event FMLPreInitializationEvent to mod advancedcropnalyzer
+2024-12-08 10:52:51 [INFO] [STDOUT] 
+2024-12-08 10:52:51 [INFO] [STDOUT] Starting up SoundSystem...
+2024-12-08 10:52:51 [INFO] [STDOUT] Initializing LWJGL OpenAL
+2024-12-08 10:52:51 [INFO] [STDOUT]     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+2024-12-08 10:52:51 [INFO] [STDOUT] OpenAL initialized.
+2024-12-08 10:52:52 [INFO] [STDOUT] 
+2024-12-08 10:52:52 [INFO] [ForgeModLoader] Not using advanced OpenGL 4.3 advanced capability for animations : OpenGL 4.3 is available
+2024-12-08 10:52:52 [INFO] [Minecraft-Client] Found animation info for: textures/blocks/lava_flow.txt
+2024-12-08 10:52:52 [INFO] [Minecraft-Client] Found animation info for: textures/blocks/water_flow.txt
+2024-12-08 10:52:52 [INFO] [Minecraft-Client] Found animation info for: textures/blocks/fire_0.txt
+2024-12-08 10:52:52 [INFO] [Minecraft-Client] Found animation info for: textures/blocks/fire_1.txt
+2024-12-08 10:52:52 [INFO] [Minecraft-Client] Found animation info for: textures/blocks/lava.txt
+2024-12-08 10:52:52 [INFO] [Minecraft-Client] Found animation info for: textures/blocks/portal.txt
+2024-12-08 10:52:52 [INFO] [Minecraft-Client] Found animation info for: textures/blocks/water.txt
+2024-12-08 10:52:52 [INFO] [Minecraft-Client] Found animation info for: textures/items/clock.txt
+2024-12-08 10:52:52 [INFO] [Minecraft-Client] Found animation info for: textures/items/compass.txt
+2024-12-08 10:52:52 [FINEST] [mcp] Sending event FMLInitializationEvent to mod mcp
+2024-12-08 10:52:52 [FINEST] [mcp] Sent event FMLInitializationEvent to mod mcp
+2024-12-08 10:52:52 [FINEST] [FML] Sending event FMLInitializationEvent to mod FML
+2024-12-08 10:52:52 [FINEST] [FML] Sent event FMLInitializationEvent to mod FML
+2024-12-08 10:52:52 [FINEST] [Forge] Sending event FMLInitializationEvent to mod Forge
+2024-12-08 10:52:52 [FINEST] [Forge] Sent event FMLInitializationEvent to mod Forge
+2024-12-08 10:52:52 [FINEST] [VintageCore] Sending event FMLInitializationEvent to mod VintageCore
+2024-12-08 10:52:52 [FINEST] [VintageCore] Sent event FMLInitializationEvent to mod VintageCore
+2024-12-08 10:52:52 [FINEST] [IC2] Sending event FMLInitializationEvent to mod IC2
+2024-12-08 10:52:52 [FINEST] [IC2] Sent event FMLInitializationEvent to mod IC2
+2024-12-08 10:52:52 [FINEST] [advancedcropnalyzer] Sending event FMLInitializationEvent to mod advancedcropnalyzer
+2024-12-08 10:52:52 [FINEST] [advancedcropnalyzer] Sent event FMLInitializationEvent to mod advancedcropnalyzer
+2024-12-08 10:52:52 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod mcp
+2024-12-08 10:52:52 [FINEST] [mcp] Sending event IMCEvent to mod mcp
+2024-12-08 10:52:52 [FINEST] [mcp] Sent event IMCEvent to mod mcp
+2024-12-08 10:52:52 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod FML
+2024-12-08 10:52:52 [FINEST] [FML] Sending event IMCEvent to mod FML
+2024-12-08 10:52:52 [FINEST] [FML] Sent event IMCEvent to mod FML
+2024-12-08 10:52:52 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod Forge
+2024-12-08 10:52:52 [FINEST] [Forge] Sending event IMCEvent to mod Forge
+2024-12-08 10:52:52 [FINEST] [Forge] Sent event IMCEvent to mod Forge
+2024-12-08 10:52:52 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod VintageCore
+2024-12-08 10:52:52 [FINEST] [VintageCore] Sending event IMCEvent to mod VintageCore
+2024-12-08 10:52:52 [FINEST] [VintageCore] Sent event IMCEvent to mod VintageCore
+2024-12-08 10:52:52 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod IC2
+2024-12-08 10:52:52 [FINEST] [IC2] Sending event IMCEvent to mod IC2
+2024-12-08 10:52:52 [FINEST] [IC2] Sent event IMCEvent to mod IC2
+2024-12-08 10:52:52 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod advancedcropnalyzer
+2024-12-08 10:52:52 [FINEST] [advancedcropnalyzer] Sending event IMCEvent to mod advancedcropnalyzer
+2024-12-08 10:52:52 [FINEST] [advancedcropnalyzer] Sent event IMCEvent to mod advancedcropnalyzer
+2024-12-08 10:52:52 [FINEST] [mcp] Sending event FMLPostInitializationEvent to mod mcp
+2024-12-08 10:52:52 [FINEST] [mcp] Sent event FMLPostInitializationEvent to mod mcp
+2024-12-08 10:52:52 [FINEST] [FML] Sending event FMLPostInitializationEvent to mod FML
+2024-12-08 10:52:52 [FINEST] [FML] Sent event FMLPostInitializationEvent to mod FML
+2024-12-08 10:52:52 [FINEST] [Forge] Sending event FMLPostInitializationEvent to mod Forge
+2024-12-08 10:52:52 [FINEST] [Forge] Sent event FMLPostInitializationEvent to mod Forge
+2024-12-08 10:52:52 [FINEST] [VintageCore] Sending event FMLPostInitializationEvent to mod VintageCore
+2024-12-08 10:52:52 [FINEST] [VintageCore] Sent event FMLPostInitializationEvent to mod VintageCore
+2024-12-08 10:52:52 [FINEST] [IC2] Sending event FMLPostInitializationEvent to mod IC2
+2024-12-08 10:52:52 [INFO] [IC2] Loading IC2 submodule: bcIntegration
+2024-12-08 10:52:52 [INFO] [IC2] Submodule bcIntegration not loaded
+2024-12-08 10:52:52 [FINEST] [IC2] Sent event FMLPostInitializationEvent to mod IC2
+2024-12-08 10:52:52 [FINEST] [advancedcropnalyzer] Sending event FMLPostInitializationEvent to mod advancedcropnalyzer
+2024-12-08 10:52:52 [FINEST] [advancedcropnalyzer] Sent event FMLPostInitializationEvent to mod advancedcropnalyzer
+2024-12-08 10:52:52 [FINEST] [mcp] Sending event FMLLoadCompleteEvent to mod mcp
+2024-12-08 10:52:52 [FINEST] [mcp] Sent event FMLLoadCompleteEvent to mod mcp
+2024-12-08 10:52:52 [FINEST] [FML] Sending event FMLLoadCompleteEvent to mod FML
+2024-12-08 10:52:52 [FINEST] [FML] Sent event FMLLoadCompleteEvent to mod FML
+2024-12-08 10:52:52 [FINEST] [Forge] Sending event FMLLoadCompleteEvent to mod Forge
+2024-12-08 10:52:52 [FINEST] [Forge] Sent event FMLLoadCompleteEvent to mod Forge
+2024-12-08 10:52:52 [FINEST] [VintageCore] Sending event FMLLoadCompleteEvent to mod VintageCore
+2024-12-08 10:52:52 [FINEST] [VintageCore] Sent event FMLLoadCompleteEvent to mod VintageCore
+2024-12-08 10:52:52 [FINEST] [IC2] Sending event FMLLoadCompleteEvent to mod IC2
+2024-12-08 10:52:52 [FINEST] [IC2] Sent event FMLLoadCompleteEvent to mod IC2
+2024-12-08 10:52:52 [FINEST] [advancedcropnalyzer] Sending event FMLLoadCompleteEvent to mod advancedcropnalyzer
+2024-12-08 10:52:52 [FINEST] [advancedcropnalyzer] Sent event FMLLoadCompleteEvent to mod advancedcropnalyzer
+2024-12-08 10:52:52 [INFO] [ForgeModLoader] Forge Mod Loader has successfully loaded 6 mods
+2024-12-08 10:52:52 [INFO] [STDERR] java.net.UnknownHostException: assets.minecraft.net
+2024-12-08 10:52:52 [INFO] [STDERR] 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at java.net.Socket.connect(Socket.java:607)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at java.net.Socket.connect(Socket.java:556)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:465)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:560)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.<init>(HttpClient.java:244)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.New(HttpClient.java:341)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.New(HttpClient.java:359)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1243)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1177)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1071)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1005)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at net.minecraft.util.HttpUtil.func_104145_a(HttpUtil.java:234)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at net.minecraft.client.gui.RunnableTitleScreen.run(RunnableTitleScreen.java:23)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at java.lang.Thread.run(Thread.java:750)
+2024-12-08 10:52:52 [INFO] [Minecraft-Client] Found animation info for: textures/blocks/lava_flow.txt
+2024-12-08 10:52:52 [INFO] [Minecraft-Client] Found animation info for: textures/blocks/water_flow.txt
+2024-12-08 10:52:52 [INFO] [Minecraft-Client] Found animation info for: textures/blocks/fire_0.txt
+2024-12-08 10:52:52 [INFO] [Minecraft-Client] Found animation info for: textures/blocks/fire_1.txt
+2024-12-08 10:52:52 [INFO] [Minecraft-Client] Found animation info for: textures/blocks/lava.txt
+2024-12-08 10:52:52 [INFO] [Minecraft-Client] Found animation info for: textures/blocks/portal.txt
+2024-12-08 10:52:52 [INFO] [Minecraft-Client] Found animation info for: textures/blocks/water.txt
+2024-12-08 10:52:52 [INFO] [Minecraft-Client] Found animation info for: textures/items/clock.txt
+2024-12-08 10:52:52 [INFO] [Minecraft-Client] Found animation info for: textures/items/compass.txt
+2024-12-08 10:52:52 [WARNING] [Minecraft-Client] Failed to add pack.mcmeta in resources
+2024-12-08 10:52:52 [WARNING] [Minecraft-Client] Failed to add READ_ME_I_AM_VERY_IMPORTANT in resources
+2024-12-08 10:52:52 [INFO] [STDERR] java.io.FileNotFoundException: http://s3.amazonaws.com/MinecraftResources/
+2024-12-08 10:52:52 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1913)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+2024-12-08 10:52:52 [INFO] [STDERR] 	at net.minecraft.util.ThreadDownloadResources.run(ThreadDownloadResources.java:57)
+2024-12-08 10:52:55 [INFO] [STDERR] java.net.UnknownHostException: assets.minecraft.net
+2024-12-08 10:52:55 [INFO] [STDERR] 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+2024-12-08 10:52:55 [INFO] [STDERR] 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+2024-12-08 10:52:55 [INFO] [STDERR] 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+2024-12-08 10:52:55 [INFO] [STDERR] 	at java.net.Socket.connect(Socket.java:607)
+2024-12-08 10:52:55 [INFO] [STDERR] 	at java.net.Socket.connect(Socket.java:556)
+2024-12-08 10:52:55 [INFO] [STDERR] 	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+2024-12-08 10:52:55 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:465)
+2024-12-08 10:52:55 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:560)
+2024-12-08 10:52:55 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.<init>(HttpClient.java:244)
+2024-12-08 10:52:55 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.New(HttpClient.java:341)
+2024-12-08 10:52:55 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.New(HttpClient.java:359)
+2024-12-08 10:52:55 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1243)
+2024-12-08 10:52:55 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1177)
+2024-12-08 10:52:55 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1071)
+2024-12-08 10:52:55 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1005)
+2024-12-08 10:52:55 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+2024-12-08 10:52:55 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+2024-12-08 10:52:55 [INFO] [STDERR] 	at net.minecraft.util.HttpUtil.func_104145_a(HttpUtil.java:234)
+2024-12-08 10:52:55 [INFO] [STDERR] 	at net.minecraft.client.gui.RunnableTitleScreen.run(RunnableTitleScreen.java:23)
+2024-12-08 10:52:55 [INFO] [STDERR] 	at java.lang.Thread.run(Thread.java:750)
+2024-12-08 10:52:55 [INFO] [Minecraft-Server] Starting integrated minecraft server version 1.5.2
+2024-12-08 10:52:55 [INFO] [Minecraft-Server] Generating keypair
+2024-12-08 10:52:56 [FINEST] [mcp] Sending event FMLServerAboutToStartEvent to mod mcp
+2024-12-08 10:52:56 [FINEST] [mcp] Sent event FMLServerAboutToStartEvent to mod mcp
+2024-12-08 10:52:56 [FINEST] [FML] Sending event FMLServerAboutToStartEvent to mod FML
+2024-12-08 10:52:56 [FINEST] [FML] Sent event FMLServerAboutToStartEvent to mod FML
+2024-12-08 10:52:56 [FINEST] [Forge] Sending event FMLServerAboutToStartEvent to mod Forge
+2024-12-08 10:52:56 [FINEST] [Forge] Sent event FMLServerAboutToStartEvent to mod Forge
+2024-12-08 10:52:56 [FINEST] [VintageCore] Sending event FMLServerAboutToStartEvent to mod VintageCore
+2024-12-08 10:52:56 [FINEST] [VintageCore] Sent event FMLServerAboutToStartEvent to mod VintageCore
+2024-12-08 10:52:56 [FINEST] [IC2] Sending event FMLServerAboutToStartEvent to mod IC2
+2024-12-08 10:52:56 [FINEST] [IC2] Sent event FMLServerAboutToStartEvent to mod IC2
+2024-12-08 10:52:56 [FINEST] [advancedcropnalyzer] Sending event FMLServerAboutToStartEvent to mod advancedcropnalyzer
+2024-12-08 10:52:56 [FINEST] [advancedcropnalyzer] Sent event FMLServerAboutToStartEvent to mod advancedcropnalyzer
+2024-12-08 10:52:56 [FINE] [fml.ItemTracker] The difference set is equal
+2024-12-08 10:52:56 [INFO] [ForgeModLoader] Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@2a498721)
+2024-12-08 10:52:56 [INFO] [ForgeModLoader] Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@2a498721)
+2024-12-08 10:52:56 [INFO] [ForgeModLoader] Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@2a498721)
+2024-12-08 10:52:56 [INFO] [Minecraft-Server] Preparing start region for level 0
+2024-12-08 10:52:56 [FINEST] [mcp] Sending event FMLServerStartingEvent to mod mcp
+2024-12-08 10:52:56 [FINEST] [mcp] Sent event FMLServerStartingEvent to mod mcp
+2024-12-08 10:52:56 [FINEST] [FML] Sending event FMLServerStartingEvent to mod FML
+2024-12-08 10:52:56 [FINEST] [FML] Sent event FMLServerStartingEvent to mod FML
+2024-12-08 10:52:56 [FINEST] [Forge] Sending event FMLServerStartingEvent to mod Forge
+2024-12-08 10:52:56 [FINEST] [Forge] Sent event FMLServerStartingEvent to mod Forge
+2024-12-08 10:52:56 [FINEST] [VintageCore] Sending event FMLServerStartingEvent to mod VintageCore
+2024-12-08 10:52:56 [FINEST] [VintageCore] Sent event FMLServerStartingEvent to mod VintageCore
+2024-12-08 10:52:56 [FINEST] [IC2] Sending event FMLServerStartingEvent to mod IC2
+2024-12-08 10:52:56 [FINEST] [IC2] Sent event FMLServerStartingEvent to mod IC2
+2024-12-08 10:52:56 [FINEST] [advancedcropnalyzer] Sending event FMLServerStartingEvent to mod advancedcropnalyzer
+2024-12-08 10:52:56 [FINEST] [advancedcropnalyzer] Sent event FMLServerStartingEvent to mod advancedcropnalyzer
+2024-12-08 10:52:56 [FINEST] [mcp] Sending event FMLServerStartedEvent to mod mcp
+2024-12-08 10:52:56 [FINEST] [mcp] Sent event FMLServerStartedEvent to mod mcp
+2024-12-08 10:52:56 [FINEST] [FML] Sending event FMLServerStartedEvent to mod FML
+2024-12-08 10:52:56 [FINEST] [FML] Sent event FMLServerStartedEvent to mod FML
+2024-12-08 10:52:56 [FINEST] [Forge] Sending event FMLServerStartedEvent to mod Forge
+2024-12-08 10:52:56 [FINEST] [Forge] Sent event FMLServerStartedEvent to mod Forge
+2024-12-08 10:52:56 [FINEST] [VintageCore] Sending event FMLServerStartedEvent to mod VintageCore
+2024-12-08 10:52:56 [FINEST] [VintageCore] Sent event FMLServerStartedEvent to mod VintageCore
+2024-12-08 10:52:56 [FINEST] [IC2] Sending event FMLServerStartedEvent to mod IC2
+2024-12-08 10:52:56 [FINEST] [IC2] Sent event FMLServerStartedEvent to mod IC2
+2024-12-08 10:52:56 [FINEST] [advancedcropnalyzer] Sending event FMLServerStartedEvent to mod advancedcropnalyzer
+2024-12-08 10:52:56 [FINEST] [advancedcropnalyzer] Sent event FMLServerStartedEvent to mod advancedcropnalyzer
+2024-12-08 10:52:56 [INFO] [STDERR] java.net.UnknownHostException: assets.minecraft.net
+2024-12-08 10:52:56 [INFO] [STDERR] 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at java.net.Socket.connect(Socket.java:607)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at java.net.Socket.connect(Socket.java:556)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:465)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:560)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.<init>(HttpClient.java:244)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.New(HttpClient.java:341)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.New(HttpClient.java:359)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1243)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1177)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1071)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1005)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at net.minecraft.util.HttpUtil.func_104145_a(HttpUtil.java:234)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at net.minecraft.client.gui.RunnableTitleScreen.run(RunnableTitleScreen.java:23)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at java.lang.Thread.run(Thread.java:750)
+2024-12-08 10:52:56 [INFO] [STDOUT] loading single player
+2024-12-08 10:52:56 [INFO] [Minecraft-Server] quaternary[/127.0.0.1:0] logged in with entity id 40 at (-321.5990174426978, 4.0, 501.65945380775827)
+2024-12-08 10:52:56 [INFO] [STDERR] java.net.UnknownHostException: skins.minecraft.net
+2024-12-08 10:52:56 [INFO] [STDERR] 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at java.net.Socket.connect(Socket.java:607)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at java.net.Socket.connect(Socket.java:556)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:465)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:560)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.<init>(HttpClient.java:244)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.New(HttpClient.java:341)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.New(HttpClient.java:359)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1243)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1177)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1071)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1005)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at net.minecraft.client.renderer.ThreadDownloadImage.run(ThreadDownloadImage.java:25)
+2024-12-08 10:52:56 [INFO] [STDERR] java.net.UnknownHostException: skins.minecraft.net
+2024-12-08 10:52:56 [INFO] [STDERR] 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at java.net.Socket.connect(Socket.java:607)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at java.net.Socket.connect(Socket.java:556)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:465)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:560)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.<init>(HttpClient.java:244)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.New(HttpClient.java:341)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.New(HttpClient.java:359)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1243)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1177)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1071)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1005)
+2024-12-08 10:52:56 [INFO] [STDERR] 	at net.minecraft.client.renderer.ThreadDownloadImage.run(ThreadDownloadImage.java:25)
+2024-12-08 10:53:16 [INFO] [Minecraft-Client] [CHAT] §aCrop scan level set to §r§a§b2§r§r§a/4§r
+2024-12-08 10:53:17 [INFO] [Minecraft-Client] [CHAT] §aCrop scan level set to §r§a§b3§r§r§a/4§r
+2024-12-08 10:53:18 [INFO] [Minecraft-Client] [CHAT] §aCrop scan level set to §r§a§b4§r§r§a/4§r
+2024-12-08 10:53:18 [INFO] [Minecraft-Client] [CHAT] =======================
+2024-12-08 10:53:18 [INFO] [Minecraft-Client] [CHAT] §fCrop Name: §r§f§aWheat§r§r
+2024-12-08 10:53:18 [INFO] [Minecraft-Client] [CHAT] §fDiscovered By: §r§f§bNotch§r§r
+2024-12-08 10:53:18 [INFO] [Minecraft-Client] [CHAT] §e#### Stats ####§r
+2024-12-08 10:53:18 [INFO] [Minecraft-Client] [CHAT] §2Growth: §r§21§r§2/§r§231§r
+2024-12-08 10:53:18 [INFO] [Minecraft-Client] [CHAT] §6Gain: §r§61§r§6/§r§631§r
+2024-12-08 10:53:18 [INFO] [Minecraft-Client] [CHAT] §3Resist.: §r§31§r§3/§r§331§r
+2024-12-08 10:53:18 [INFO] [Minecraft-Client] [CHAT] §bStress: ~§r§b3§r§b/§r§b50§r
+2024-12-08 10:53:18 [INFO] [Minecraft-Client] [CHAT] §e#### Storage ####§r
+2024-12-08 10:53:18 [INFO] [Minecraft-Client] [CHAT] §6Fertilizer: §r§60§r§6/§r§6100§r
+2024-12-08 10:53:18 [INFO] [Minecraft-Client] [CHAT] §9Water: §r§90§r§9/§r§9200§r
+2024-12-08 10:53:18 [INFO] [Minecraft-Client] [CHAT] §dWeedEx: §r§d0§r§d/§r§d150§r
+2024-12-08 10:53:18 [INFO] [Minecraft-Client] [CHAT] §e#### Environment ####§r
+2024-12-08 10:53:18 [INFO] [Minecraft-Client] [CHAT] §aNutrients: §r§a2§r§a/§r§a20§r
+2024-12-08 10:53:18 [INFO] [Minecraft-Client] [CHAT] §3Humidity: §r§32§r§3/§r§320§r
+2024-12-08 10:53:18 [INFO] [Minecraft-Client] [CHAT] §bEnv. Quality: §r§b6§r§b/§r§b10§r
+2024-12-08 10:53:18 [INFO] [Minecraft-Client] [CHAT] §eLight Level: §r§e15§r§e/§r§e15§r
+2024-12-08 10:53:18 [INFO] [Minecraft-Client] [CHAT] =======================
+2024-12-08 10:53:47 [INFO] [Minecraft-Client] [CHAT] §aCrop scan level set to §r§a§b2§r§r§a/4§r
+2024-12-08 10:53:48 [INFO] [Minecraft-Client] [CHAT] §aCrop scan level set to §r§a§b3§r§r§a/4§r
+2024-12-08 10:53:48 [INFO] [Minecraft-Client] [CHAT] §aCrop scan level set to §r§a§b4§r§r§a/4§r
+2024-12-08 10:53:48 [INFO] [Minecraft-Client] [CHAT] =======================
+2024-12-08 10:53:48 [INFO] [Minecraft-Client] [CHAT] §fCrop Name: §r§f§aWheat§r§r
+2024-12-08 10:53:48 [INFO] [Minecraft-Client] [CHAT] §fDiscovered By: §r§f§bNotch§r§r
+2024-12-08 10:53:48 [INFO] [Minecraft-Client] [CHAT] §e#### Stats ####§r
+2024-12-08 10:53:48 [INFO] [Minecraft-Client] [CHAT] §2Growth: §r§21§r§2/§r§231§r
+2024-12-08 10:53:48 [INFO] [Minecraft-Client] [CHAT] §6Gain: §r§61§r§6/§r§631§r
+2024-12-08 10:53:48 [INFO] [Minecraft-Client] [CHAT] §3Resist.: §r§31§r§3/§r§331§r
+2024-12-08 10:53:48 [INFO] [Minecraft-Client] [CHAT] §bStress: ~§r§b3§r§b/§r§b50§r
+2024-12-08 10:53:48 [INFO] [Minecraft-Client] [CHAT] §e#### Storage ####§r
+2024-12-08 10:53:48 [INFO] [Minecraft-Client] [CHAT] §6Fertilizer: §r§60§r§6/§r§6100§r
+2024-12-08 10:53:48 [INFO] [Minecraft-Client] [CHAT] §9Water: §r§90§r§9/§r§9200§r
+2024-12-08 10:53:48 [INFO] [Minecraft-Client] [CHAT] §dWeedEx: §r§d0§r§d/§r§d150§r
+2024-12-08 10:53:48 [INFO] [Minecraft-Client] [CHAT] §e#### Environment ####§r
+2024-12-08 10:53:48 [INFO] [Minecraft-Client] [CHAT] §aNutrients: §r§a2§r§a/§r§a20§r
+2024-12-08 10:53:48 [INFO] [Minecraft-Client] [CHAT] §3Humidity: §r§32§r§3/§r§320§r
+2024-12-08 10:53:48 [INFO] [Minecraft-Client] [CHAT] §bEnv. Quality: §r§b6§r§b/§r§b10§r
+2024-12-08 10:53:48 [INFO] [Minecraft-Client] [CHAT] §eLight Level: §r§e15§r§e/§r§e15§r
+2024-12-08 10:53:48 [INFO] [Minecraft-Client] [CHAT] =======================
+2024-12-08 10:53:51 [INFO] [Minecraft-Client] [CHAT] §aCrop scan level set to §r§a§b2§r§r§a/4§r
+2024-12-08 10:53:52 [INFO] [Minecraft-Client] [CHAT] §aCrop scan level set to §r§a§b3§r§r§a/4§r
+2024-12-08 10:53:52 [INFO] [Minecraft-Client] [CHAT] §aCrop scan level set to §r§a§b4§r§r§a/4§r
+2024-12-08 10:53:52 [INFO] [Minecraft-Client] [CHAT] =======================
+2024-12-08 10:53:52 [INFO] [Minecraft-Client] [CHAT] §fCrop Name: §r§f§aWheat§r§r
+2024-12-08 10:53:52 [INFO] [Minecraft-Client] [CHAT] §fDiscovered By: §r§f§bNotch§r§r
+2024-12-08 10:53:52 [INFO] [Minecraft-Client] [CHAT] §e#### Stats ####§r
+2024-12-08 10:53:52 [INFO] [Minecraft-Client] [CHAT] §2Growth: §r§21§r§2/§r§231§r
+2024-12-08 10:53:52 [INFO] [Minecraft-Client] [CHAT] §6Gain: §r§61§r§6/§r§631§r
+2024-12-08 10:53:52 [INFO] [Minecraft-Client] [CHAT] §3Resist.: §r§31§r§3/§r§331§r
+2024-12-08 10:53:52 [INFO] [Minecraft-Client] [CHAT] §bStress: ~§r§b3§r§b/§r§b50§r
+2024-12-08 10:53:52 [INFO] [Minecraft-Client] [CHAT] §e#### Storage ####§r
+2024-12-08 10:53:52 [INFO] [Minecraft-Client] [CHAT] §6Fertilizer: §r§60§r§6/§r§6100§r
+2024-12-08 10:53:52 [INFO] [Minecraft-Client] [CHAT] §9Water: §r§90§r§9/§r§9200§r
+2024-12-08 10:53:52 [INFO] [Minecraft-Client] [CHAT] §dWeedEx: §r§d0§r§d/§r§d150§r
+2024-12-08 10:53:52 [INFO] [Minecraft-Client] [CHAT] §e#### Environment ####§r
+2024-12-08 10:53:52 [INFO] [Minecraft-Client] [CHAT] §aNutrients: §r§a2§r§a/§r§a20§r
+2024-12-08 10:53:52 [INFO] [Minecraft-Client] [CHAT] §3Humidity: §r§32§r§3/§r§320§r
+2024-12-08 10:53:52 [INFO] [Minecraft-Client] [CHAT] §bEnv. Quality: §r§b6§r§b/§r§b10§r
+2024-12-08 10:53:52 [INFO] [Minecraft-Client] [CHAT] §eLight Level: §r§e15§r§e/§r§e15§r
+2024-12-08 10:53:52 [INFO] [Minecraft-Client] [CHAT] =======================
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] §aCrop scan level set to §r§a§b2§r§r§a/4§r
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] §aCrop scan level set to §r§a§b3§r§r§a/4§r
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] §aCrop scan level set to §r§a§b4§r§r§a/4§r
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] =======================
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] §fCrop Name: §r§f§aWheat§r§r
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] §fDiscovered By: §r§f§bNotch§r§r
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] §e#### Stats ####§r
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] §2Growth: §r§21§r§2/§r§231§r
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] §6Gain: §r§61§r§6/§r§631§r
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] §3Resist.: §r§31§r§3/§r§331§r
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] §bStress: ~§r§b3§r§b/§r§b45§r
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] §e#### Storage ####§r
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] §6Fertilizer: §r§60§r§6/§r§6100§r
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] §9Water: §r§90§r§9/§r§9200§r
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] §dWeedEx: §r§d0§r§d/§r§d150§r
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] §e#### Environment ####§r
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] §aNutrients: §r§a2§r§a/§r§a20§r
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] §3Humidity: §r§32§r§3/§r§320§r
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] §bEnv. Quality: §r§b5§r§b/§r§b10§r
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] §eLight Level: §r§e15§r§e/§r§e15§r
+2024-12-08 10:53:57 [INFO] [Minecraft-Client] [CHAT] =======================
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] §aCrop scan level set to §r§a§b2§r§r§a/4§r
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] §aCrop scan level set to §r§a§b3§r§r§a/4§r
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] §aCrop scan level set to §r§a§b4§r§r§a/4§r
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] =======================
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] §fCrop Name: §r§f§aWheat§r§r
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] §fDiscovered By: §r§f§bNotch§r§r
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] §e#### Stats ####§r
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] §2Growth: §r§21§r§2/§r§231§r
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] §6Gain: §r§61§r§6/§r§631§r
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] §3Resist.: §r§31§r§3/§r§331§r
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] §bStress: ~§r§b3§r§b/§r§b50§r
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] §e#### Storage ####§r
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] §6Fertilizer: §r§625§r§6/§r§6100§r
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] §9Water: §r§90§r§9/§r§9200§r
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] §dWeedEx: §r§d0§r§d/§r§d150§r
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] §e#### Environment ####§r
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] §aNutrients: §r§a4§r§a/§r§a20§r
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] §3Humidity: §r§32§r§3/§r§320§r
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] §bEnv. Quality: §r§b4§r§b/§r§b10§r
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] §eLight Level: §r§e15§r§e/§r§e15§r
+2024-12-08 10:54:02 [INFO] [Minecraft-Client] [CHAT] =======================
+2024-12-08 10:54:09 [INFO] [Minecraft-Client] [CHAT] §aCrop scan level set to §r§a§b2§r§r§a/4§r
+2024-12-08 10:54:09 [INFO] [Minecraft-Client] [CHAT] §aCrop scan level set to §r§a§b3§r§r§a/4§r
+2024-12-08 10:54:11 [INFO] [Minecraft-Client] [CHAT] §aCrop scan level set to §r§a§b4§r§r§a/4§r
+2024-12-08 10:54:11 [INFO] [Minecraft-Client] [CHAT] =======================
+2024-12-08 10:54:11 [INFO] [Minecraft-Client] [CHAT] §fCrop Name: §r§f§aWheat§r§r
+2024-12-08 10:54:11 [INFO] [Minecraft-Client] [CHAT] §fDiscovered By: §r§f§bNotch§r§r
+2024-12-08 10:54:11 [INFO] [Minecraft-Client] [CHAT] §e#### Stats ####§r
+2024-12-08 10:54:11 [INFO] [Minecraft-Client] [CHAT] §2Growth: §r§21§r§2/§r§231§r
+2024-12-08 10:54:11 [INFO] [Minecraft-Client] [CHAT] §6Gain: §r§61§r§6/§r§631§r
+2024-12-08 10:54:11 [INFO] [Minecraft-Client] [CHAT] §3Resist.: §r§31§r§3/§r§331§r
+2024-12-08 10:54:11 [INFO] [Minecraft-Client] [CHAT] §bStress: ~§r§b3§r§b/§r§b60§r
+2024-12-08 10:54:11 [INFO] [Minecraft-Client] [CHAT] §e#### Storage ####§r
+2024-12-08 10:54:11 [INFO] [Minecraft-Client] [CHAT] §6Fertilizer: §r§675§r§6/§r§6100§r
+2024-12-08 10:54:11 [INFO] [Minecraft-Client] [CHAT] §9Water: §r§90§r§9/§r§9200§r
+2024-12-08 10:54:11 [INFO] [Minecraft-Client] [CHAT] §dWeedEx: §r§d0§r§d/§r§d150§r
+2024-12-08 10:54:11 [INFO] [Minecraft-Client] [CHAT] §e#### Environment ####§r
+2024-12-08 10:54:11 [INFO] [Minecraft-Client] [CHAT] §aNutrients: §r§a6§r§a/§r§a20§r
+2024-12-08 10:54:11 [INFO] [Minecraft-Client] [CHAT] §3Humidity: §r§32§r§3/§r§320§r
+2024-12-08 10:54:11 [INFO] [Minecraft-Client] [CHAT] §bEnv. Quality: §r§b4§r§b/§r§b10§r
+2024-12-08 10:54:11 [INFO] [Minecraft-Client] [CHAT] §eLight Level: §r§e15§r§e/§r§e15§r
+2024-12-08 10:54:11 [INFO] [Minecraft-Client] [CHAT] =======================
+2024-12-08 10:54:12 [INFO] [Minecraft-Client] [CHAT] =======================
+2024-12-08 10:54:12 [INFO] [Minecraft-Client] [CHAT] §fCrop Name: §r§f§aWheat§r§r
+2024-12-08 10:54:12 [INFO] [Minecraft-Client] [CHAT] §fDiscovered By: §r§f§bNotch§r§r
+2024-12-08 10:54:12 [INFO] [Minecraft-Client] [CHAT] §e#### Stats ####§r
+2024-12-08 10:54:12 [INFO] [Minecraft-Client] [CHAT] §2Growth: §r§21§r§2/§r§231§r
+2024-12-08 10:54:12 [INFO] [Minecraft-Client] [CHAT] §6Gain: §r§61§r§6/§r§631§r
+2024-12-08 10:54:12 [INFO] [Minecraft-Client] [CHAT] §3Resist.: §r§31§r§3/§r§331§r
+2024-12-08 10:54:12 [INFO] [Minecraft-Client] [CHAT] §bStress: ~§r§b3§r§b/§r§b60§r
+2024-12-08 10:54:12 [INFO] [Minecraft-Client] [CHAT] §e#### Storage ####§r
+2024-12-08 10:54:12 [INFO] [Minecraft-Client] [CHAT] §6Fertilizer: §r§675§r§6/§r§6100§r
+2024-12-08 10:54:12 [INFO] [Minecraft-Client] [CHAT] §9Water: §r§90§r§9/§r§9200§r
+2024-12-08 10:54:12 [INFO] [Minecraft-Client] [CHAT] §dWeedEx: §r§d0§r§d/§r§d150§r
+2024-12-08 10:54:12 [INFO] [Minecraft-Client] [CHAT] §e#### Environment ####§r
+2024-12-08 10:54:12 [INFO] [Minecraft-Client] [CHAT] §aNutrients: §r§a6§r§a/§r§a20§r
+2024-12-08 10:54:12 [INFO] [Minecraft-Client] [CHAT] §3Humidity: §r§32§r§3/§r§320§r
+2024-12-08 10:54:12 [INFO] [Minecraft-Client] [CHAT] §bEnv. Quality: §r§b4§r§b/§r§b10§r
+2024-12-08 10:54:12 [INFO] [Minecraft-Client] [CHAT] §eLight Level: §r§e15§r§e/§r§e15§r
+2024-12-08 10:54:12 [INFO] [Minecraft-Client] [CHAT] =======================
+2024-12-08 10:54:21 [INFO] [Minecraft-Server] Saving and pausing game...
+2024-12-08 10:54:21 [INFO] [Minecraft-Server] Saving chunks for level 'New World'/Overworld
+2024-12-08 10:54:21 [INFO] [Minecraft-Server] Saving chunks for level 'New World'/Nether
+2024-12-08 10:54:21 [INFO] [Minecraft-Server] Saving chunks for level 'New World'/The End
+2024-12-08 10:54:21 [INFO] [Minecraft-Server] Saving and pausing game...
+2024-12-08 10:54:21 [INFO] [Minecraft-Server] Saving chunks for level 'New World'/Overworld
+2024-12-08 10:54:21 [INFO] [Minecraft-Server] Saving chunks for level 'New World'/Nether
+2024-12-08 10:54:21 [INFO] [Minecraft-Server] Saving chunks for level 'New World'/The End
+2024-12-08 10:54:27 [INFO] [Minecraft-Server] Saving and pausing game...
+2024-12-08 10:54:27 [INFO] [Minecraft-Server] Saving chunks for level 'New World'/Overworld
+2024-12-08 10:54:27 [INFO] [Minecraft-Server] Saving chunks for level 'New World'/Nether
+2024-12-08 10:54:27 [INFO] [Minecraft-Server] Saving chunks for level 'New World'/The End
+2024-12-08 10:54:27 [FINEST] [mcp] Sending event FMLServerStoppingEvent to mod mcp
+2024-12-08 10:54:27 [FINEST] [mcp] Sent event FMLServerStoppingEvent to mod mcp
+2024-12-08 10:54:27 [FINEST] [FML] Sending event FMLServerStoppingEvent to mod FML
+2024-12-08 10:54:27 [FINEST] [FML] Sent event FMLServerStoppingEvent to mod FML
+2024-12-08 10:54:27 [FINEST] [Forge] Sending event FMLServerStoppingEvent to mod Forge
+2024-12-08 10:54:27 [FINEST] [Forge] Sent event FMLServerStoppingEvent to mod Forge
+2024-12-08 10:54:27 [FINEST] [VintageCore] Sending event FMLServerStoppingEvent to mod VintageCore
+2024-12-08 10:54:27 [FINEST] [VintageCore] Sent event FMLServerStoppingEvent to mod VintageCore
+2024-12-08 10:54:27 [FINEST] [IC2] Sending event FMLServerStoppingEvent to mod IC2
+2024-12-08 10:54:27 [FINEST] [IC2] Sent event FMLServerStoppingEvent to mod IC2
+2024-12-08 10:54:27 [FINEST] [advancedcropnalyzer] Sending event FMLServerStoppingEvent to mod advancedcropnalyzer
+2024-12-08 10:54:27 [FINEST] [advancedcropnalyzer] Sent event FMLServerStoppingEvent to mod advancedcropnalyzer
+2024-12-08 10:54:27 [INFO] [Minecraft-Server] Stopping server
+2024-12-08 10:54:27 [INFO] [Minecraft-Server] Saving players
+2024-12-08 10:54:27 [INFO] [Minecraft-Server] Saving worlds
+2024-12-08 10:54:27 [INFO] [Minecraft-Server] Saving chunks for level 'New World'/Overworld
+2024-12-08 10:54:27 [INFO] [Minecraft-Server] Saving chunks for level 'New World'/Nether
+2024-12-08 10:54:27 [INFO] [Minecraft-Server] Saving chunks for level 'New World'/The End
+2024-12-08 10:54:27 [INFO] [ForgeModLoader] Unloading dimension 0
+2024-12-08 10:54:27 [INFO] [ForgeModLoader] Unloading dimension -1
+2024-12-08 10:54:27 [INFO] [ForgeModLoader] Unloading dimension 1
+2024-12-08 10:54:27 [FINEST] [mcp] Sending event FMLServerStoppedEvent to mod mcp
+2024-12-08 10:54:27 [FINEST] [mcp] Sent event FMLServerStoppedEvent to mod mcp
+2024-12-08 10:54:27 [FINEST] [FML] Sending event FMLServerStoppedEvent to mod FML
+2024-12-08 10:54:27 [FINEST] [FML] Sent event FMLServerStoppedEvent to mod FML
+2024-12-08 10:54:27 [FINEST] [Forge] Sending event FMLServerStoppedEvent to mod Forge
+2024-12-08 10:54:27 [FINEST] [Forge] Sent event FMLServerStoppedEvent to mod Forge
+2024-12-08 10:54:27 [FINEST] [VintageCore] Sending event FMLServerStoppedEvent to mod VintageCore
+2024-12-08 10:54:27 [FINEST] [VintageCore] Sent event FMLServerStoppedEvent to mod VintageCore
+2024-12-08 10:54:27 [FINEST] [IC2] Sending event FMLServerStoppedEvent to mod IC2
+2024-12-08 10:54:27 [FINEST] [IC2] Sent event FMLServerStoppedEvent to mod IC2
+2024-12-08 10:54:27 [FINEST] [advancedcropnalyzer] Sending event FMLServerStoppedEvent to mod advancedcropnalyzer
+2024-12-08 10:54:27 [FINEST] [advancedcropnalyzer] Sent event FMLServerStoppedEvent to mod advancedcropnalyzer
+2024-12-08 10:54:27 [INFO] [STDERR] java.net.UnknownHostException: assets.minecraft.net
+2024-12-08 10:54:27 [INFO] [STDERR] 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+2024-12-08 10:54:27 [INFO] [STDERR] 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+2024-12-08 10:54:27 [INFO] [STDERR] 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+2024-12-08 10:54:27 [INFO] [STDERR] 	at java.net.Socket.connect(Socket.java:607)
+2024-12-08 10:54:27 [INFO] [STDERR] 	at java.net.Socket.connect(Socket.java:556)
+2024-12-08 10:54:27 [INFO] [STDERR] 	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+2024-12-08 10:54:27 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:465)
+2024-12-08 10:54:27 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:560)
+2024-12-08 10:54:27 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.<init>(HttpClient.java:244)
+2024-12-08 10:54:27 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.New(HttpClient.java:341)
+2024-12-08 10:54:27 [INFO] [STDERR] 	at sun.net.www.http.HttpClient.New(HttpClient.java:359)
+2024-12-08 10:54:27 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1243)
+2024-12-08 10:54:27 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1177)
+2024-12-08 10:54:27 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1071)
+2024-12-08 10:54:27 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1005)
+2024-12-08 10:54:27 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+2024-12-08 10:54:27 [INFO] [STDERR] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+2024-12-08 10:54:27 [INFO] [STDERR] 	at net.minecraft.util.HttpUtil.func_104145_a(HttpUtil.java:234)
+2024-12-08 10:54:27 [INFO] [STDERR] 	at net.minecraft.client.gui.RunnableTitleScreen.run(RunnableTitleScreen.java:23)
+2024-12-08 10:54:27 [INFO] [STDERR] 	at java.lang.Thread.run(Thread.java:750)
