@@ -38,7 +38,7 @@ public class AdvancedCropnalyzer implements ILangProvider {
     public static final String SNEAK_KEY = StatCollector.translateToLocal("key.sneak");
 
     public static Configuration CONFIG;
-    public static int CROPNALYZER_ID = 2001;
+    public static int CROPNALYZER_ID = 12001;
     public static String[] LABGS;
 
     public static Item ADVANCED_CROPNALYZER;
@@ -63,10 +63,10 @@ public class AdvancedCropnalyzer implements ILangProvider {
     }
 
     public void initConfig() {
-        CONFIG = new Configuration(new File((File) FMLInjectionData.data()[6], "config/ic2/advancedcropnalyzer.cfg"));
+        CONFIG = new Configuration(new File((File) FMLInjectionData.data()[6], "config/advancedcropnalyzer.cfg"));
         CONFIG.load();
         CROPNALYZER_ID = ConfigHelper.getId(CONFIG, "IDs", "advanced_cropnalyzer", CROPNALYZER_ID);
-        LABGS = ConfigHelper.getStrings(CONFIG, "localizations", "localizations", new String[] { "en_US" }, "Supported localizations. Place your <name>.lang file in config/advancedcropnalyzer/lang folder or inside mods/advancedcropnalyzer/lang inside modJar");
+        LABGS = ConfigHelper.getStrings(CONFIG, "localizations", "localizations", new String[] { "en_US", "ru_RU" }, "Supported localizations. Place your <name>.lang file in config/advancedcropnalyzer/lang folder or inside mods/advancedcropnalyzer/lang inside modJar");
         if (CONFIG.hasChanged()) CONFIG.save();
     }
 
