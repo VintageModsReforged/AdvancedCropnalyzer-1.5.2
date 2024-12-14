@@ -15,24 +15,22 @@ import ic2.core.item.tool.ContainerCropnalyzer;
 import ic2.core.item.tool.HandHeldCropnalyzer;
 import ic2.core.util.StackUtil;
 import mods.vintage.core.platform.lang.FormattedTranslator;
-import net.minecraft.block.Block;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.EnumToolMaterial;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemTool;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 
 import java.util.List;
 
-public class ItemAdvancedAnalyzer extends ItemTool implements IHandHeldInventory, IElectricItem {
+public class ItemAdvancedAnalyzer extends Item implements IHandHeldInventory, IElectricItem {
 
     public ItemAdvancedAnalyzer(int id) {
-        super(id, 0, EnumToolMaterial.WOOD, new Block[0]);
+        super(id);
         this.setMaxStackSize(1);
         this.setMaxDamage(27);
         this.setNoRepair();
