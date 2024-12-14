@@ -26,3 +26,7 @@ analyzer.message.info.press=Press %1$s for more info
 analyzer.message.info.click.block=%1$s and %2$s on Crop to %3$s
 analyzer.message.info.crop.info=Scan or see Crop Info
 analyzer.tooltip.desc=Can scan Crop InWorld. Uses 500EU per scan
+
+# keys
+key.mouse.right=Right Click
+key.sneak=Sneak

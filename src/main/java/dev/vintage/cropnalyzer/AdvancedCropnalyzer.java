@@ -17,7 +17,6 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.util.StatCollector;
 import net.minecraftforge.common.Configuration;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 import org.lwjgl.input.Keyboard;
@@ -34,8 +33,6 @@ public class AdvancedCropnalyzer implements ILangProvider {
     public static final String VERSION = "1.5.2-1.0.0";
     public static final String MINECRAFT = "[1.5.2]";
     public static final String DEPS = "required-after:VintageCore;required-after:IC2";
-
-    public static final String SNEAK_KEY = StatCollector.translateToLocal("key.sneak");
 
     public static Configuration CONFIG;
     public static int CROPNALYZER_ID = 12001;

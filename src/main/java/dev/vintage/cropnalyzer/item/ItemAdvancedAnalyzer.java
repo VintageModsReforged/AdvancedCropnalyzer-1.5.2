@@ -15,6 +15,7 @@ import ic2.core.item.tool.ContainerCropnalyzer;
 import ic2.core.item.tool.HandHeldCropnalyzer;
 import ic2.core.util.StackUtil;
 import mods.vintage.core.platform.lang.FormattedTranslator;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLiving;
@@ -24,6 +25,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
+import org.lwjgl.input.Keyboard;
 
 import java.util.List;
 
@@ -63,9 +65,9 @@ public class ItemAdvancedAnalyzer extends Item implements IHandHeldInventory, IE
         tooltip.add(FormattedTranslator.AQUA.format("analyzer.message.info.energy", AdvancedCropnalyzer.getCharge(stack), this.getMaxCharge(stack), FormattedTranslator.WHITE.format("analyzer.message.info.energy.tier", FormattedTranslator.YELLOW.literal(this.getTier(stack) + ""))));
         tooltip.add(FormattedTranslator.YELLOW.format("analyzer.tooltip.desc"));
         if (AdvancedCropnalyzer.isShiftKeyDown()) {
-            tooltip.add(FormattedTranslator.GRAY.format("analyzer.message.info.click.block", FormattedTranslator.GOLD.literal(AdvancedCropnalyzer.SNEAK_KEY), FormattedTranslator.GOLD.literal("Right Click"), FormattedTranslator.GREEN.format("analyzer.message.info.crop.info")));
+            tooltip.add(FormattedTranslator.GRAY.format("analyzer.message.info.click.block", FormattedTranslator.GOLD.literal(Keyboard.getKeyName(Minecraft.getMinecraft().gameSettings.keyBindSneak.keyCode)), FormattedTranslator.GOLD.format("key.mouse.right"), FormattedTranslator.GREEN.format("analyzer.message.info.crop.info")));
         } else {
-            tooltip.add(FormattedTranslator.GRAY.format("analyzer.message.info.press", FormattedTranslator.GREEN.format(AdvancedCropnalyzer.SNEAK_KEY)));
+            tooltip.add(FormattedTranslator.GRAY.format("analyzer.message.info.press", FormattedTranslator.GREEN.literal(Keyboard.getKeyName(Minecraft.getMinecraft().gameSettings.keyBindSneak.keyCode))));
         }
     }
 
