@@ -36,6 +36,12 @@ volde {
 	}
 }
 
+repositories {
+	maven {
+		url = "https://api.modrinth.com/maven"
+	}
+}
+
 dependencies {
 	minecraft "com.mojang:minecraft:${minecraftVersion}"
 	forge "net.minecraftforge:forge:${forgeVersion}:universal@zip"
@@ -43,7 +49,11 @@ dependencies {
 
 	modImplementation files("libs/VintageCore-1.5.2-1.0.3.1-dev.jar")
 	modImplementation files("libs/industrialcraft-2_1.117.385-lf.jar")
-	
-	//coremodImplementation files("../dep_testin/ears-forge-1.4-1.4.5_01.jar")
-	//modImplementation files("../dep_testin/buildcraft-A-1.4.7-3.4.4.jar")
+
+	modImplementation("maven.modrinth:nei:1.5.2.28")
+	modImplementation("maven.modrinth:codechicken-core:0.8.7.3")
+}
+
+jar {
+	exclude ("**/codechicken/**")
 }
