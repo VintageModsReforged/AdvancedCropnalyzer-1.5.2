@@ -30,7 +30,7 @@ public class AdvancedCropnalyzer implements ILangProvider {
 
     public static final String ID = "advancedcropnalyzer";
     public static final String NAME = "IC2: Advanced Cropnalyzer";
-    public static final String VERSION = "1.5.2-1.0.0";
+    public static final String VERSION = "1.5.2-1.0.2";
     public static final String MINECRAFT = "[1.5.2]";
     public static final String DEPS = "required-after:VintageCore;required-after:IC2";
 
