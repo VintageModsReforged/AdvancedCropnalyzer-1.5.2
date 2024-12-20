@@ -22,6 +22,12 @@ crop.env.light=Уровень света: %s/%s
 analyzer.message.info.energy=%s/%s EU %s
 analyzer.message.info.energy.tier=(Энергоуровень: %s)
 
+analyzer.gui.tier=Уровень: %s
+analyzer.gui.discovered.by=Обнаружил:
+analyzer.gui.growth=Growth:
+analyzer.gui.gain=Gain:
+analyzer.gui.resist=Resist.:
+
 analyzer.message.info.press=Зажмите %1$s для дополнительной информации
 analyzer.message.info.click.block=%1$s + %2$s по посеву, чтобы %3$s
 analyzer.message.info.crop.info=просканировать или посмотреть характеристики

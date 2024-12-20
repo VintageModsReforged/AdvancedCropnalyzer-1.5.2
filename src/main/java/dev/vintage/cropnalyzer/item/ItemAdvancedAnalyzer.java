@@ -11,8 +11,6 @@ import ic2.core.IHasGui;
 import ic2.core.block.TileEntityCrop;
 import ic2.core.block.crop.IC2Crops;
 import ic2.core.item.IHandHeldInventory;
-import ic2.core.item.tool.ContainerCropnalyzer;
-import ic2.core.item.tool.HandHeldCropnalyzer;
 import ic2.core.util.StackUtil;
 import mods.vintage.core.platform.lang.FormattedTranslator;
 import net.minecraft.client.Minecraft;
@@ -156,13 +154,13 @@ public class ItemAdvancedAnalyzer extends Item implements IHandHeldInventory, IE
 
     @Override
     public IHasGui getInventory(EntityPlayer player, ItemStack stack) {
-        return new HandHeldCropnalyzer(player, stack);
+        return new HandHeldAdvAnalyzer(player, stack);
     }
 
     @Override
     public boolean onDroppedByPlayer(ItemStack item, EntityPlayer player) {
-        if (item != null && player.openContainer instanceof ContainerCropnalyzer) {
-            HandHeldCropnalyzer cropnalyzer = ((ContainerCropnalyzer)player.openContainer).cropnalyzer;
+        if (item != null && player.openContainer instanceof ContainerAdvAnalyzer) {
+            HandHeldAdvAnalyzer cropnalyzer = ((ContainerAdvAnalyzer) player.openContainer).advAnalyzer;
             NBTTagCompound tag = StackUtil.getOrCreateNbtData(item);
             if (cropnalyzer.matchesUid(tag.getInteger("uid"))) {
                 player.closeScreen();

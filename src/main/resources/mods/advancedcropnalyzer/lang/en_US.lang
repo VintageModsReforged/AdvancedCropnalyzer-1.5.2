@@ -1,6 +1,6 @@
 item.advanced.cropnalyzer.name=Advanced Cropnalyzer
 crop.name=Crop Name: %s
-crop.discovered.by=Discovered By: %s
+crop.discovered.by=Discovered by: %s
 crop.discovered.by.unknown=Unknown
 crop.scan.level.set=Crop scan level set to %s/4
 crop.stats=#### Stats ####
@@ -21,6 +21,12 @@ crop.env.light=Light Level: %s/%s
 
 analyzer.message.info.energy=%s/%s EU %s
 analyzer.message.info.energy.tier=(Tier: %s)
+
+analyzer.gui.tier=Tier: %s
+analyzer.gui.discovered.by=Discovered by:
+analyzer.gui.growth=Growth:
+analyzer.gui.gain=Gain:
+analyzer.gui.resist=Resist.:
 
 analyzer.message.info.press=Press %1$s for more info
 analyzer.message.info.click.block=%1$s and %2$s on Crop to %3$s
