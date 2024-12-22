@@ -1,3 +1,7 @@
 # Project exclude paths
 /.gradle/
 /build/
+/run/server/lib/argo-small-3.2.jar
+/.idea/
+/run/
+/gradle/
