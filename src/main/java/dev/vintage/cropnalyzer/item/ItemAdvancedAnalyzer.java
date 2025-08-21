@@ -12,7 +12,10 @@ import ic2.core.block.TileEntityCrop;
 import ic2.core.block.crop.IC2Crops;
 import ic2.core.item.IHandHeldInventory;
 import ic2.core.util.StackUtil;
-import mods.vintage.core.platform.lang.FormattedTranslator;
+import mods.vintage.core.helpers.ClientHelper;
+import mods.vintage.core.helpers.ElectricHelper;
+import mods.vintage.core.platform.config.IItemBlockIDProvider;
+import mods.vintage.core.platform.lang.Translator;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.creativetab.CreativeTabs;
@@ -27,7 +30,7 @@ import org.lwjgl.input.Keyboard;
 
 import java.util.List;
 
-public class ItemAdvancedAnalyzer extends Item implements IHandHeldInventory, IElectricItem {
+public class ItemAdvancedAnalyzer extends Item implements IHandHeldInventory, IElectricItem, IItemBlockIDProvider {
 
     public ItemAdvancedAnalyzer(int id) {
         super(id);
@@ -41,7 +44,7 @@ public class ItemAdvancedAnalyzer extends Item implements IHandHeldInventory, IE
     @Override
     @SideOnly(Side.CLIENT)
     public void getSubItems(int is, CreativeTabs tabs, List items) {
-        AdvancedCropnalyzer.addChargeVariants(this, items);
+        ElectricHelper.addChargeVariants(this, items);
     }
 
     @SideOnly(Side.CLIENT)
@@ -53,19 +56,19 @@ public class ItemAdvancedAnalyzer extends Item implements IHandHeldInventory, IE
     @Override
     @SideOnly(Side.CLIENT)
     public String getItemDisplayName(ItemStack stack) {
-        return FormattedTranslator.GREEN.literal(super.getItemDisplayName(stack));
+        return Translator.GREEN.literal(super.getItemDisplayName(stack));
     }
 
     @SuppressWarnings("unchecked")
     @Override
     @SideOnly(Side.CLIENT)
     public void addInformation(ItemStack stack, EntityPlayer player, List tooltip, boolean isDebugMode) {
-        tooltip.add(FormattedTranslator.AQUA.format("analyzer.message.info.energy", AdvancedCropnalyzer.getCharge(stack), this.getMaxCharge(stack), FormattedTranslator.WHITE.format("analyzer.message.info.energy.tier", FormattedTranslator.YELLOW.literal(this.getTier(stack) + ""))));
-        tooltip.add(FormattedTranslator.YELLOW.format("analyzer.tooltip.desc"));
-        if (AdvancedCropnalyzer.isShiftKeyDown()) {
-            tooltip.add(FormattedTranslator.GRAY.format("analyzer.message.info.click.block", FormattedTranslator.GOLD.literal(Keyboard.getKeyName(Minecraft.getMinecraft().gameSettings.keyBindSneak.keyCode)), FormattedTranslator.GOLD.format("key.mouse.right"), FormattedTranslator.GREEN.format("analyzer.message.info.crop.info")));
+        tooltip.add(Translator.AQUA.format("analyzer.message.info.energy", ElectricHelper.getCharge(stack), this.getMaxCharge(stack), Translator.DARK_GRAY.format("analyzer.message.info.energy.tier", Translator.YELLOW.literal(this.getTier(stack) + ""))));
+        tooltip.add(Translator.YELLOW.format("analyzer.tooltip.desc"));
+        if (ClientHelper.isShiftKeyDown()) {
+            tooltip.add(Translator.GRAY.format("analyzer.message.info.click.block", Translator.GOLD.literal(Keyboard.getKeyName(Minecraft.getMinecraft().gameSettings.keyBindSneak.keyCode)), Translator.GOLD.format("key.mouse.right"), Translator.GREEN.format("analyzer.message.info.crop.info")));
         } else {
-            tooltip.add(FormattedTranslator.GRAY.format("analyzer.message.info.press", FormattedTranslator.GREEN.literal(Keyboard.getKeyName(Minecraft.getMinecraft().gameSettings.keyBindSneak.keyCode))));
+            tooltip.add(Translator.GRAY.format("analyzer.message.info.press", Translator.GREEN.literal(Keyboard.getKeyName(Minecraft.getMinecraft().gameSettings.keyBindSneak.keyCode))));
         }
     }
 
@@ -95,45 +98,45 @@ public class ItemAdvancedAnalyzer extends Item implements IHandHeldInventory, IE
                         if (crop != null) {
                             if (scanLevel < 4 && ElectricItem.manager.canUse(stack, 500)) {
                                 cropTile.setScanLevel((byte) ++scanLevel);
-                                IC2.platform.messagePlayer(player, FormattedTranslator.GREEN.format("crop.scan.level.set", FormattedTranslator.AQUA.literal("" + scanLevel)));
+                                IC2.platform.messagePlayer(player, Translator.GREEN.format("crop.scan.level.set", Translator.AQUA.literal("" + scanLevel)));
                                 ElectricItem.manager.use(stack, 500, player);
                             }
                             if (scanLevel >= 4) {
                                 IC2.platform.messagePlayer(player, "=======================");
-                                IC2.platform.messagePlayer(player, FormattedTranslator.WHITE.format("crop.name", FormattedTranslator.GREEN.literal(crop.name())));
+                                IC2.platform.messagePlayer(player, Translator.WHITE.format("crop.name", Translator.GREEN.literal(crop.name())));
                             }
 
                             if (scanLevel < 1 && !crop.isWeed(cropTile)) {
-                                IC2.platform.messagePlayer(player, FormattedTranslator.WHITE.format("crop.discovered.by", FormattedTranslator.AQUA.format("crop.discovered.by.unknown")));
+                                IC2.platform.messagePlayer(player, Translator.WHITE.format("crop.discovered.by", Translator.AQUA.format("crop.discovered.by.unknown")));
                             } else if (scanLevel >= 4) {
-                                IC2.platform.messagePlayer(player, FormattedTranslator.WHITE.format("crop.discovered.by", FormattedTranslator.AQUA.literal(crop.discoveredBy())));
-                                IC2.platform.messagePlayer(player, FormattedTranslator.YELLOW.format("crop.stats"));
-                                IC2.platform.messagePlayer(player, FormattedTranslator.DARK_GREEN.format("crop.stats.growth", growth, 31));
-                                IC2.platform.messagePlayer(player, FormattedTranslator.GOLD.format("crop.stats.gain", gain, 31));
-                                IC2.platform.messagePlayer(player, FormattedTranslator.DARK_AQUA.format("crop.stats.resistance", resistance, 31));
+                                IC2.platform.messagePlayer(player, Translator.WHITE.format("crop.discovered.by", Translator.AQUA.literal(crop.discoveredBy())));
+                                IC2.platform.messagePlayer(player, Translator.YELLOW.format("crop.stats"));
+                                IC2.platform.messagePlayer(player, Translator.DARK_GREEN.format("crop.stats.growth", growth, 31));
+                                IC2.platform.messagePlayer(player, Translator.GOLD.format("crop.stats.gain", gain, 31));
+                                IC2.platform.messagePlayer(player, Translator.DARK_AQUA.format("crop.stats.resistance", resistance, 31));
 
                                 int stress = (crop.tier() - 1) * 4 + growth + gain + resistance;
                                 int maxStress = crop.weightInfluences(cropTile, humidity, nutrients, env) * 5;
-                                IC2.platform.messagePlayer(player, FormattedTranslator.AQUA.format("crop.stats.needs", stress, maxStress));
+                                IC2.platform.messagePlayer(player, Translator.AQUA.format("crop.stats.needs", stress, maxStress));
                             }
 
 
                         }
                         if (scanLevel >= 4) {
-                            IC2.platform.messagePlayer(player, FormattedTranslator.YELLOW.format("crop.storage"));
-                            IC2.platform.messagePlayer(player, FormattedTranslator.GOLD.format("crop.storage.fertilizer", fertilizer, 100));
-                            IC2.platform.messagePlayer(player, FormattedTranslator.BLUE.format("crop.storage.water", water, 200));
-                            IC2.platform.messagePlayer(player, FormattedTranslator.LIGHT_PURPLE.format("crop.storage.weedex", weedex, 150));
+                            IC2.platform.messagePlayer(player, Translator.YELLOW.format("crop.storage"));
+                            IC2.platform.messagePlayer(player, Translator.GOLD.format("crop.storage.fertilizer", fertilizer, 100));
+                            IC2.platform.messagePlayer(player, Translator.BLUE.format("crop.storage.water", water, 200));
+                            IC2.platform.messagePlayer(player, Translator.LIGHT_PURPLE.format("crop.storage.weedex", weedex, 150));
 
-                            IC2.platform.messagePlayer(player, FormattedTranslator.YELLOW.format("crop.environment"));
-                            IC2.platform.messagePlayer(player, FormattedTranslator.GREEN.format("crop.env.nutrients", nutrients, 20));
-                            IC2.platform.messagePlayer(player, FormattedTranslator.DARK_AQUA.format("crop.env.humidity", humidity, 20));
-                            IC2.platform.messagePlayer(player, FormattedTranslator.AQUA.format("crop.env.env", env, 10));
-                            IC2.platform.messagePlayer(player, FormattedTranslator.YELLOW.format("crop.env.light", light, 15));
+                            IC2.platform.messagePlayer(player, Translator.YELLOW.format("crop.environment"));
+                            IC2.platform.messagePlayer(player, Translator.GREEN.format("crop.env.nutrients", nutrients, 20));
+                            IC2.platform.messagePlayer(player, Translator.DARK_AQUA.format("crop.env.humidity", humidity, 20));
+                            IC2.platform.messagePlayer(player, Translator.AQUA.format("crop.env.env", env, 10));
+                            IC2.platform.messagePlayer(player, Translator.YELLOW.format("crop.env.light", light, 15));
                             IC2.platform.messagePlayer(player, "=======================");
                         }
                     } else {
-                        IC2.platform.messagePlayer(player, FormattedTranslator.WHITE.format("crop.name", FormattedTranslator.GREEN.format("crop.discovered.by.unknown")));
+                        IC2.platform.messagePlayer(player, Translator.WHITE.format("crop.name", Translator.GREEN.format("crop.discovered.by.unknown")));
                     }
                 }
                 return true;

@@ -1,28 +1,13 @@
 package dev.vintage.cropnalyzer;
 
-import codechicken.nei.MultiItemRange;
-import codechicken.nei.api.API;
-import codechicken.nei.api.IConfigureNEI;
 import mods.vintage.core.VintageCore;
+import mods.vintage.core.helpers.nei.NEIHelper;
 
-public class NEIConfig implements IConfigureNEI {
+public class NEIConfig {
 
-    @Override
-    public void loadConfig() {
+    public static void init() {
         VintageCore.LOGGER.info("Loading NEI Plugin for IC2: Advanced Cropnalyzer!");
-        MultiItemRange itemRange = new MultiItemRange();
-        itemRange.add(AdvancedCropnalyzer.ADVANCED_CROPNALYZER.itemID);
-        API.addSetRange("IC2.Addons.Advanced Cropnalyzer", itemRange);
+        NEIHelper.addCategory("IC2.Addons.Advanced Cropnalyzer", AdvancedCropnalyzer.ADVANCED_CROPNALYZER.itemID);
         VintageCore.LOGGER.info("NEI Plugin for IC2: Advanced Cropnalyzer Loaded!");
-    }
-
-    @Override
-    public String getName() {
-        return AdvancedCropnalyzer.NAME;
-    }
-
-    @Override
-    public String getVersion() {
-        return "1.5.2-1.0.0";
     }
 }
