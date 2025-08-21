@@ -25,9 +25,6 @@
   "crop.env.env": "Env. Quality: %s/%s",
   "crop.env.light": "Light Level: %s/%s",
 
-  "analyzer.message.info.energy": "%s/%s EU %s",
-  "analyzer.message.info.energy.tier": "(Tier: %s)",
-
   "analyzer.gui.tier": "Tier: %s",
   "analyzer.gui.discovered.by": "Discovered by:",
   "analyzer.gui.growth": "Growth:",

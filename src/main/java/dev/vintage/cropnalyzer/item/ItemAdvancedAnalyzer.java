@@ -63,7 +63,7 @@ public class ItemAdvancedAnalyzer extends Item implements IHandHeldInventory, IE
     @Override
     @SideOnly(Side.CLIENT)
     public void addInformation(ItemStack stack, EntityPlayer player, List tooltip, boolean isDebugMode) {
-        tooltip.add(Translator.AQUA.format("analyzer.message.info.energy", ElectricHelper.getCharge(stack), this.getMaxCharge(stack), Translator.DARK_GRAY.format("analyzer.message.info.energy.tier", Translator.YELLOW.literal(this.getTier(stack) + ""))));
+        tooltip.add(ElectricHelper.energyTooltip(ElectricHelper.getCharge(stack), this.getMaxCharge(stack), this.getTier(stack)));
         tooltip.add(Translator.YELLOW.format("analyzer.tooltip.desc"));
         if (ClientHelper.isShiftKeyDown()) {
             tooltip.add(Translator.GRAY.format("analyzer.message.info.click.block", Translator.GOLD.literal(Keyboard.getKeyName(Minecraft.getMinecraft().gameSettings.keyBindSneak.keyCode)), Translator.GOLD.format("key.mouse.right"), Translator.GREEN.format("analyzer.message.info.crop.info")));

@@ -25,9 +25,6 @@
   "crop.env.env": "Качество воздуха: %s/%s",
   "crop.env.light": "Уровень света: %s/%s",
 
-  "analyzer.message.info.energy": "%s/%s EU %s",
-  "analyzer.message.info.energy.tier": "(Энергоуровень: %s)",
-
   "analyzer.gui.tier": "Уровень: %s",
   "analyzer.gui.discovered.by": "Обнаружил:",
   "analyzer.gui.growth": "Growth:",
