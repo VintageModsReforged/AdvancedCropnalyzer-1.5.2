@@ -15,12 +15,10 @@ import net.minecraftforge.oredict.ShapedOreRecipe;
 
 import static dev.vintage.cropnalyzer.AdvancedCropnalyzerConfig.CROPNALYZER_ID;
 
-@Mod(modid = AdvancedCropnalyzer.ID, name = AdvancedCropnalyzer.NAME, useMetadata = true, dependencies = AdvancedCropnalyzer.DEPS)
+@Mod(modid = AdvancedCropnalyzer.ID, useMetadata = true)
 public class AdvancedCropnalyzer {
 
     public static final String ID = "advancedcropnalyzer";
-    public static final String NAME = "IC2: Advanced Cropnalyzer";
-    public static final String DEPS = "required-after:VintageCore;required-after:IC2";
 
     ConfigHandler CONFIG_HANDLER = new ConfigHandler(ID);
     public static Configuration CONFIG;

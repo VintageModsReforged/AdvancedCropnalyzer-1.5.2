@@ -26,7 +26,7 @@ compileJava {
 String minecraftVersion = project.minecraft
 String forgeVersion = project.minecraft_forge
 archivesBaseName = project.modid
-version = project.mod_version
+version = project.modVersion
 
 volde {
 	runs {
@@ -51,17 +51,18 @@ dependencies {
 	modImplementation files("libs/industrialcraft-2_1.117.385-lf.jar")
 }
 
+def props = ['modName', 'modid', 'modVersion', 'modDescription', 'modAuthors', 'modDeps', 'minecraft', 'url']
 processResources {
-	inputs.property 'version', version
-	filesMatching('mcmod.info') {
-		expand version: version
+	filesMatching("mcmod.info") {
+		expand(project.properties.subMap(props))
 	}
 }
 
-sourceSets {
-	main {
-		resources {
-			srcDirs 'src/main/java'
-		}
-	}
+task sourcesJar(type: Jar) {
+	archiveClassifier.set("sources")
+	from sourceSets.main.allSource
+}
+
+artifacts {
+	archives sourcesJar
 }

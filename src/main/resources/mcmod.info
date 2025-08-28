@@ -1,10 +1,14 @@
 [
   {
-    "modid": "advancedcropnalyzer",
-    "name": "IC2: Advanced Cropnalyzer",
-    "description": "Advanced version of IC2 Cropnalyzer.",
-    "version": "${version}",
-    "mcversion": "1.5.2",
-    "authors": ["CrossVas"]
+    "modid": "${modid}",
+    "name": "${modName}",
+    "description": "${modDescription}",
+    "version": "${modVersion}",
+    "mcversion": "${minecraft}",
+    "authorList": ["${modAuthors}"],
+    "url": "${url}",
+    "dependencies": [
+      "${modDeps}"
+    ]
   }
 ]
